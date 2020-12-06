@@ -1,8 +1,8 @@
-import Home from './Home'
-import About from './About'
-import Products from './Products'
-import Team from './Team'
-import Connect from './Connect'
+import Home from './Home/Home'
+import About from './Music/Music'
+import Products from './Blog/Blog'
+import Team from './Tech/Tech'
+import Connect from './Connect/Connect'
 
 export {
     Home,

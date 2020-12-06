@@ -1,7 +1,7 @@
 import React from 'react'
-import { Title, SubTitle, ParagraphRegular, TextLink } from '../UI/Typography'
-import { fade0, fade1, fade2, fade3 } from '../UI/Media'
-import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../UI/Containers'
+import { Title, SubTitle, ParagraphRegular, TextLink } from '../../UI/Typography'
+import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
+import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../UI/Containers'
 
 //Assets
 import Waveform_01 from '../Assets/Waveform_01.png'
