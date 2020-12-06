@@ -17,15 +17,15 @@ export default function Menu(): JSX.Element {
         <MenuWrapper>
 
             <SubTitle>
-                <TextLink to='/about'>About</TextLink>
+                <TextLink to='/music'>Music</TextLink>
             </SubTitle>
 
             <SubTitle>
-                <TextLink to='/products'>Products</TextLink>
+                <TextLink to='/tech'>Tech</TextLink>
             </SubTitle>
 
             <SubTitle>
-                <TextLink to='/team'>Team</TextLink>
+                <TextLink to='/blog'>Blog</TextLink>
             </SubTitle>
 
             <SubTitle>

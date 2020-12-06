@@ -5,22 +5,11 @@ import { ImageLarge, ImageContainer, fade1, fade2 } from '../../UI/Media'
 import { SubTitle } from '../../UI/Typography'
 import { TextWrapperCenter, FadeWrapperFlex, TextWrapperLeft } from '../../UI/Containers'
 import { Circle, CircleWrapper } from '../../UI/ScrollElements'
-import { Cyans } from '../../UI/Colors'
+import { ButtonWrapper, PDFLink } from './styles'
 //Assets
 import Spectogram_01 from '../../Assets/Spectogram_01.png'
 
-const ButtonWrapper = styled.a`
-    display: flex;
-    margin: 0 auto;
-    text-decoration: none;
-`
 
-const PDFLink = styled.button`
-    background-color: ${Cyans[4]};
-    border: none;
-    border-radius: 8px;
-    padding: 0px 20px;
-`
 
 export default function Home(): JSX.Element {
     return (

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer'
 //pages
-import { Home, About, Products, Team, Connect } from './Pages'
+import { Home, Music, Blog, Tech, Connect } from './Pages'
 
 const ContentWrapper = styled.div`
   height: 100%;
@@ -19,9 +19,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path='/about' component={About} />
-          <Route path="/products" component={Products} />
-          <Route path="/team" component={Team} />
+          <Route path='/music' component={Music} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/tech" component={Tech} />
           <Route path="/connect" component={Connect} />
         </Switch>
         <Footer />

@@ -1,13 +1,13 @@
-import Home from './Home/Home'
-import About from './Music/Music'
-import Products from './Blog/Blog'
-import Team from './Tech/Tech'
-import Connect from './Connect/Connect'
+import Home from './Home'
+import Music from './Music'
+import Blog from './Blog'
+import Tech from './Tech'
+import Connect from './Connect'
 
 export {
     Home,
-    About,
-    Products,
-    Team,
+    Music,
+    Blog,
+    Tech,
     Connect
 }
