@@ -35,4 +35,5 @@ export const Title = styled.h1`
   font-family: Sora;
   color: white;
   text-decoration: none;
+  font-size: 4em;
 `

@@ -26,7 +26,7 @@ class Tech extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>Founders</Title>
+                        <Title>News</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
 

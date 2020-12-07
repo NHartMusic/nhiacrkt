@@ -26,7 +26,7 @@ export default function Home(): JSX.Element {
                     initial='hidden'
                     animate='visible'
                 >
-                    <SubTitle>Welcome Home</SubTitle>
+                    <SubTitle>NHIACRKT</SubTitle>
                 </FadeWrapperFlex>
             </TextWrapperCenter>
 
