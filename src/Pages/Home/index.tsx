@@ -1,15 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 //UI Elements
-import { ImageLarge, ImageContainer, fade1, fade2 } from '../../UI/Media'
+import { ImageLarge, ImageContainer, fade1, fade4 } from '../../UI/Media'
 import { SubTitle } from '../../UI/Typography'
 import { TextWrapperCenter, FadeWrapperFlex, TextWrapperLeft } from '../../UI/Containers'
 import { Circle, CircleWrapper } from '../../UI/ScrollElements'
 import { ButtonWrapper, PDFLink } from './styles'
 //Assets
 import Spectogram_01 from '../../Assets/Spectogram_01.png'
+import { FirstName, LastName } from './styles'
 
-
+const Center = styled.div`
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+`
 
 export default function Home(): JSX.Element {
     return (
@@ -21,13 +26,65 @@ export default function Home(): JSX.Element {
             </CircleWrapper>
 
             <TextWrapperCenter>
-                <FadeWrapperFlex
-                    variants={fade2}
-                    initial='hidden'
-                    animate='visible'
-                >
-                    <SubTitle>NHIACRKT</SubTitle>
-                </FadeWrapperFlex>
+
+                <Center>
+                    <FadeWrapperFlex
+                        variants={fade1}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <FirstName>N</FirstName>
+                    </FadeWrapperFlex>
+                    <FadeWrapperFlex
+                        variants={fade4}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <LastName>H</LastName>
+                    </FadeWrapperFlex>
+                    <FadeWrapperFlex
+                        variants={fade1}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <FirstName>I</FirstName>
+                    </FadeWrapperFlex>
+                    <FadeWrapperFlex
+                        variants={fade4}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <LastName>A</LastName>
+                    </FadeWrapperFlex>
+                    <FadeWrapperFlex
+                        variants={fade1}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <FirstName>C</FirstName>
+                    </FadeWrapperFlex>
+                    <FadeWrapperFlex
+                        variants={fade4}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <LastName>R</LastName>
+                    </FadeWrapperFlex>
+                    <FadeWrapperFlex
+                        variants={fade1}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <FirstName>K</FirstName>
+                    </FadeWrapperFlex>
+                    <FadeWrapperFlex
+                        variants={fade4}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <LastName>T</LastName>
+                    </FadeWrapperFlex>
+                </Center>
             </TextWrapperCenter>
 
             <ImageContainer

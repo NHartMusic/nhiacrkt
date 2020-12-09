@@ -43,7 +43,7 @@ export const fade0 = {
 
 export const fade1 = {
     hidden: {
-        opacity: 0,
+        opacity: 0
     },
     visible: {
         opacity: 1,
@@ -53,7 +53,7 @@ export const fade1 = {
 
 export const fade2 = {
     hidden: {
-        opacity: 0,
+        opacity: 0
     },
     visible: {
         opacity: 1,
@@ -68,5 +68,15 @@ export const fade3 = {
     visible: {
         opacity: 1,
         transition: { delay: 0.8, duration: 2.8 }
+    }
+}
+
+export const fade4 = {
+    hidden: {
+        opacity: 0
+    },
+    visible: {
+        opacity: 1,
+        transition: { delay: 1.2, duration: 3.5 }
     }
 }
