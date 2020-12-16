@@ -1,6 +1,18 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
+export const ImageBanner = styled.img`
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    min-width: 880px;
+    min-height: 100px;
+    max-width: 2200px;
+    max-height: 250px;
+    height: 100%;
+    width: 100%;
+`
+
 export const ImageLarge = styled.img`
     display: flex;
     margin: 0 auto;
