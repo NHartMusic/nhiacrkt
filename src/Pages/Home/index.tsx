@@ -6,7 +6,7 @@ import Name from '../../Components/Name'
 import { ImageLarge, ImageContainer, fade1, fade4 } from '../../UI/Media'
 import { SubTitle } from '../../UI/Typography'
 import { TextWrapperCenter, TextWrapperLeft } from '../../UI/Containers'
-import { ButtonWrapper, PDFLink } from './styles'
+import { ButtonWrapper, PDFLink, Banner } from './styles'
 import { CircleWhite, CircleLightBlue, CircleDarkBlue, CircleWrapper } from '../../UI/ScrollElements'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
@@ -23,11 +23,10 @@ export default function Home(): JSX.Element {
                     initial='hidden'
                     animate='visible'
                 >
-                    <ImageLarge src={Spectogram_03} />
+                    <Banner src={Spectogram_03} />
                 </ImageContainer>
                 <CircleWhite />
             </CircleWrapper>
-
 
             <CircleWrapper>
                 <CircleLightBlue />
