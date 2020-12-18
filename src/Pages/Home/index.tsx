@@ -7,7 +7,13 @@ import { ImageLarge, ImageContainer, fade1, fade4 } from '../../UI/Media'
 import { SubTitle } from '../../UI/Typography'
 import { TextWrapperCenter, TextWrapperLeft } from '../../UI/Containers'
 import { ButtonWrapper, PDFLink, Banner } from './styles'
-import { CircleWhite, CircleLightBlue, CircleDarkBlue, CircleWrapper } from '../../UI/ScrollElements'
+import {
+    CircleWhite,
+    CircleLightBlue,
+    CircleMediumBlue,
+    CircleDarkBlue,
+    CircleWrapper
+} from '../../UI/ScrollElements'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
 import Spectogram_03 from '../../Assets/Spectogram_03.png'
@@ -17,16 +23,15 @@ export default function Home(): JSX.Element {
     return (
         <>
             <CircleWrapper>
+                <CircleDarkBlue />
+                <CircleMediumBlue />
+                <CircleLightBlue />
                 <CircleWhite />
-                <ImageContainer
-                    variants={fade4}
-                    initial='hidden'
-                    animate='visible'
-                >
-                    <Banner src={Spectogram_03} />
-                </ImageContainer>
-                <CircleWhite />
+                <CircleLightBlue />
+                <CircleMediumBlue />
+                <CircleDarkBlue />
             </CircleWrapper>
+
 
             <CircleWrapper>
                 <CircleLightBlue />
@@ -34,19 +39,13 @@ export default function Home(): JSX.Element {
                 <CircleLightBlue />
             </CircleWrapper>
 
-
-            <CircleWrapper>
-                <CircleDarkBlue />
-                <ImageContainer
-                    variants={fade1}
-                    initial='hidden'
-                    animate='visible'
-                >
-                    <ImageLarge src={Golden_Gate} />
-                </ImageContainer>
-                <CircleDarkBlue />
-            </CircleWrapper>
-
+            <ImageContainer
+                variants={fade1}
+                initial='hidden'
+                animate='visible'
+            >
+                <ImageLarge src={Golden_Gate} />
+            </ImageContainer>
 
             <TextWrapperLeft>
                 <SubTitle>

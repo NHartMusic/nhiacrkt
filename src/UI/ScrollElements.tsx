@@ -22,6 +22,10 @@ export const ScrollContainerLightBlue = styled(ScrollContainer)`
     background: ${Blues[1]};
 `
 
+export const ScrollContainerMediumBlue = styled(ScrollContainer)`
+    background: ${Blues[3]};
+`
+
 export const ScrollContainerDarkBlue = styled(ScrollContainer)`
     background: ${Blues[6]};
 `
@@ -45,6 +49,29 @@ export const CircleWhite = () => {
 
     return (
         <ScrollWrapper>
+            <ScrollContainer
+                className="container"
+                style={{
+                    scale
+                }}
+            >
+                <ScrollCircle
+                    className="item"
+                    style={{
+                        scaleY: scrollYProgress
+                    }}
+                />
+            </ScrollContainer>
+        </ScrollWrapper>
+    )
+}
+
+export const CircleLightBlue = () => {
+    const { scrollYProgress } = useViewportScroll();
+    const scale = useTransform(scrollYProgress, [0, 0.5], [0, 0.5]);
+
+    return (
+        <ScrollWrapper>
             <ScrollContainerLightBlue
                 className="container"
                 style={{
@@ -62,7 +89,30 @@ export const CircleWhite = () => {
     )
 }
 
-export const CircleLightBlue = () => {
+export const CircleMediumBlue = () => {
+    const { scrollYProgress } = useViewportScroll();
+    const scale = useTransform(scrollYProgress, [0, 0.5], [0, 0.5]);
+
+    return (
+        <ScrollWrapper>
+            <ScrollContainerMediumBlue
+                className="container"
+                style={{
+                    scale
+                }}
+            >
+                <ScrollCircle
+                    className="item"
+                    style={{
+                        scaleY: scrollYProgress
+                    }}
+                />
+            </ScrollContainerMediumBlue>
+        </ScrollWrapper>
+    )
+}
+
+export const CircleDarkBlue = () => {
     const { scrollYProgress } = useViewportScroll();
     const scale = useTransform(scrollYProgress, [0, 0.5], [0, 0.5]);
 
@@ -81,29 +131,6 @@ export const CircleLightBlue = () => {
                     }}
                 />
             </ScrollContainerDarkBlue>
-        </ScrollWrapper>
-    )
-}
-
-export const CircleDarkBlue = () => {
-    const { scrollYProgress } = useViewportScroll();
-    const scale = useTransform(scrollYProgress, [0, 0.5], [0, 0.5]);
-
-    return (
-        <ScrollWrapper>
-            <ScrollContainer
-                className="container"
-                style={{
-                    scale
-                }}
-            >
-                <ScrollCircle
-                    className="item"
-                    style={{
-                        scaleY: scrollYProgress
-                    }}
-                />
-            </ScrollContainer>
         </ScrollWrapper>
     )
 }

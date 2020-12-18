@@ -46,7 +46,7 @@ class Name extends PureComponent<Props, State> {
                             initial='hidden'
                             animate='visible'
                         >
-                            <LastName>Δ</LastName>
+                            <LastName>A</LastName>
                         </FadeWrapperFlex>
                         <FadeWrapperFlex
                             variants={fade1}
