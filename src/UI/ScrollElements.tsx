@@ -61,6 +61,7 @@ export const CircleWhite = () => {
                         scaleY: scrollYProgress
                     }}
                 />
+
             </ScrollContainer>
         </ScrollWrapper>
     )

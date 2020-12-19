@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
+import styled from 'styled-components'
 //Components
 import Name from '../../Components/Name'
 //UI Elements
@@ -14,10 +15,16 @@ import {
     CircleDarkBlue,
     CircleWrapper
 } from '../../UI/ScrollElements'
+import { Triangle } from '../../UI/SVG'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
-import Spectogram_03 from '../../Assets/Spectogram_03.png'
 
+const Wrapper = styled.div`
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 40px;
+`
 
 export default function Home(): JSX.Element {
     return (
@@ -32,30 +39,35 @@ export default function Home(): JSX.Element {
                 <CircleDarkBlue />
             </CircleWrapper>
 
-
             <CircleWrapper>
                 <CircleLightBlue />
                 <Name />
                 <CircleLightBlue />
             </CircleWrapper>
 
-            <ImageContainer
-                variants={fade1}
-                initial='hidden'
-                animate='visible'
-            >
-                <ImageLarge src={Golden_Gate} />
-            </ImageContainer>
+            <Wrapper>
+                <Triangle />
+                <ImageContainer
+                    variants={fade4}
+                    initial='hidden'
+                    animate='visible'
+                >
+                    <ImageLarge src={Golden_Gate} />
+                </ImageContainer>
+                <Triangle />
+            </Wrapper>
 
             <TextWrapperLeft>
                 <SubTitle>
-                    Kieku Records Oy is a music company of the future, built on a foundation of great musical curation and taste.
-                    Developing data driven talent development and marketing automation tools (IKI) alongside AI based composition tools (Kieku).
-                    Founded in Helsinki in 2017, the company has people working across Helsinki (Finland), Berlin (Germany) and Athens (Greece).
+                    My name is Nicholas James Hart, and I am a musician, audio engineer and software engineer
+                    from Berkeley, California. I have a BA from music from Humboldt State University and a professional
+                    certificate in full stack web development from UC Berkeley. I've worked in tech for over 3 years and
+                    I worked in the music industry for over 5 years before that. I love designing websites and I
+                    fucking hate the Grateful Dead.
                 </SubTitle>
             </TextWrapperLeft>
 
-            <TextWrapperCenter>
+            <CircleWrapper>
                 <ButtonWrapper href={require('../../Assets/Kieku_Pitch_Deck.pdf')} target="_blank">
                     <PDFLink>
                         <SubTitle>
@@ -63,7 +75,7 @@ export default function Home(): JSX.Element {
                         </SubTitle>
                     </PDFLink>
                 </ButtonWrapper>
-            </TextWrapperCenter>
+            </CircleWrapper>
 
         </>
     )
