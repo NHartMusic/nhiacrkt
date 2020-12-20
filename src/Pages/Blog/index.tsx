@@ -1,9 +1,9 @@
-
-import { Title, SubTitle, ParagraphRegular, TextLink } from '../../UI/Typography'
-import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
-import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../UI/Containers'
-
 import React, { PureComponent, ReactNode } from 'react'
+//component imports
+import { Title } from '../../UI/Typography'
+import { fade0 } from '../../UI/Media'
+import { TextWrapperCenter, FadeWrapperBlock } from '../../UI/Containers'
+import ExpansionPanel from '../../Components/ExpansionPanel'
 
 interface Props { }
 interface State { }
@@ -29,6 +29,7 @@ class Blog extends PureComponent<Props, State> {
                         <Title>Blog</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
+                <ExpansionPanel />
             </>
         )
     }

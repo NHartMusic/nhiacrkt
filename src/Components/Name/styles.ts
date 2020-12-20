@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { SubTitle } from '../../UI/Typography'
+import { ParagraphLarge } from '../../UI/Typography'
 import { Blues } from '../../UI/Colors'
 
 export const Center = styled.div`
@@ -9,12 +9,12 @@ export const Center = styled.div`
     text-align: center;
 `
 
-export const FirstName = styled(SubTitle)`
+export const FirstName = styled(ParagraphLarge)`
     font-size: 2.5em;
     color: ${Blues[1]}
 `
 
-export const LastName = styled(SubTitle)`
+export const LastName = styled(ParagraphLarge)`
     font-size: 2.5em;
     color: ${Blues[6]}
 `

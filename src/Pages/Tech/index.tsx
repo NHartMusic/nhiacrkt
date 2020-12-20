@@ -1,5 +1,5 @@
 
-import { Title, SubTitle, ParagraphRegular, TextLink } from '../../UI/Typography'
+import { Title, ParagraphLarge, ParagraphRegular, TextLink } from '../../UI/Typography'
 import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
 import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../UI/Containers'
 
