@@ -1,7 +1,10 @@
 
-import { Title, SubTitle, ParagraphRegular, TextLink } from '../../UI/Typography'
-import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
-import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../UI/Containers'
+import { Title } from '../../UI/Typography'
+import { fade0 } from '../../UI/Media'
+import { TextWrapperCenter, FadeWrapperBlock } from '../../UI/Containers'
+import Accordion from '@material-ui/core/Accordion'
+import AccordionSummary from '@material-ui/core/AccordionSummary'
+import AccordionDetails from '@material-ui/core/AccordionDetails'
 
 import React, { PureComponent, ReactNode } from 'react'
 
@@ -29,6 +32,21 @@ class Connect extends PureComponent<Props, State> {
                         <Title>Connect</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
+
+                <div>
+                    <Accordion>
+                        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+                            <p>Collapsible Group Item #1</p>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                                sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            </p>
+                        </AccordionDetails>
+                    </Accordion>
+                </div>
             </>
         )
     }
