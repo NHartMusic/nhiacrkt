@@ -3,7 +3,7 @@ import React, { PureComponent, ReactNode, } from 'react'
 interface Props { }
 interface State {
     title: string,
-
+    category: string
 }
 
 class StarWars1 extends PureComponent<Props, State> {
@@ -11,13 +11,15 @@ class StarWars1 extends PureComponent<Props, State> {
         super(props)
 
         this.state = {
-            title: 'StarWars1'
+            title: 'StarWars1',
+            category: 'film'
         }
+
+        console.log(this.state.category)
     }
     static propTypes: {
 
     };
-
 
 
     render(): ReactNode {

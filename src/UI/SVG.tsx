@@ -10,6 +10,8 @@ export const svgVariants = {
 }
 
 const TriangleStyle = styled(motion.svg)`
+    display: flex;
+    margin: 0 auto;
     width: 80px;
     overflow: visible;
     stroke: #fff;

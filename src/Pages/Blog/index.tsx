@@ -1,13 +1,37 @@
-import React from 'react'
-import { Title } from '../../UI/Typography'
-import { TextWrapperCenter } from '../../UI/Containers'
 
-export default function Blog(): JSX.Element {
-    return (
-        <>
-            <TextWrapperCenter>
-                <Title>Blog</Title>
-            </TextWrapperCenter>
-        </>
-    )
+import { Title, SubTitle, ParagraphRegular, TextLink } from '../../UI/Typography'
+import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
+import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../UI/Containers'
+
+import React, { PureComponent, ReactNode } from 'react'
+
+interface Props { }
+interface State { }
+
+class Blog extends PureComponent<Props, State> {
+    constructor(props: Props) {
+        super(props)
+
+        this.state = {
+
+        }
+    }
+
+    render(): ReactNode {
+        return (
+            <>
+                <FadeWrapperBlock
+                    variants={fade0}
+                    initial='hidden'
+                    animate='visible'
+                >
+                    <TextWrapperCenter>
+                        <Title>Blog</Title>
+                    </TextWrapperCenter>
+                </FadeWrapperBlock>
+            </>
+        )
+    }
 }
+
+export default Blog

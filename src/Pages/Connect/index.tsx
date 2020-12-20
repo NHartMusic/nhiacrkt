@@ -20,7 +20,15 @@ class Connect extends PureComponent<Props, State> {
     render(): ReactNode {
         return (
             <>
-                <h1> i'll fuck you up</h1>
+                <FadeWrapperBlock
+                    variants={fade0}
+                    initial='hidden'
+                    animate='visible'
+                >
+                    <TextWrapperCenter>
+                        <Title>Connect</Title>
+                    </TextWrapperCenter>
+                </FadeWrapperBlock>
             </>
         )
     }
