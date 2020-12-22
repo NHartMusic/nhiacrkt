@@ -19,8 +19,8 @@ export const ImageLarge = styled.img`
     padding: 20px;
     min-width: 300px;
     min-height: 300px;
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 700px;
+    max-height: 700px;
     height: 100%;
     width: 100%;
 `

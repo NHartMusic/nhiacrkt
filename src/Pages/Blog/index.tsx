@@ -1,9 +1,11 @@
 import React, { PureComponent, ReactNode } from 'react'
 //component imports
 import { Title } from '../../UI/Typography'
-import { fade0 } from '../../UI/Media'
+import { fade0, fade2 } from '../../UI/Media'
 import { TextWrapperCenter, FadeWrapperBlock } from '../../UI/Containers'
 import TopAlbums from '../../Components/TopAlbums'
+import Albums2020 from '../Blog/BlogPosts/Albums2020'
+
 
 interface Props { }
 interface State { }
@@ -26,10 +28,17 @@ class Blog extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>Blog</Title>
+                        <Title>Top 50 Albums of 2020</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
-                <TopAlbums />
+                <FadeWrapperBlock
+                    variants={fade2}
+                    initial='hidden'
+                    animate='visible'
+                >
+
+                    <Albums2020 />
+                </FadeWrapperBlock>
             </>
         )
     }

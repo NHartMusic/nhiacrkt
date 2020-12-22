@@ -23,7 +23,6 @@ const Wrapper = styled.div`
     display: flex;
     margin: 0 auto;
     align-items: center;
-    padding: 40px;
 `
 
 export default function Home(): JSX.Element {
@@ -64,7 +63,7 @@ export default function Home(): JSX.Element {
                     certificate in full stack web development from UC Berkeley. I've worked in tech for over 3 years and
                     I worked in the music industry for over 5 years before that. I love designing websites and I
                     fucking hate the Grateful Dead.
-        </ParagraphLarge>
+                </ParagraphLarge>
             </TextWrapperLeft >
 
             <CircleWrapper>
