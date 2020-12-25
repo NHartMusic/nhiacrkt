@@ -149,7 +149,33 @@ export default function CustomizedAccordions() {
 
             <Accordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
                 <AccordionSummary>
-                    <SubTitle>3. Run The Jewels - RTJ4 </SubTitle>
+                    <SubTitle>4. Dirty Projectors - 5EPs </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+                <AccordionSummary>
+                    <SubTitle>5. Nicolas Jaar - Cenizas </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+                <AccordionSummary>
+                    <SubTitle>6. Perfume Genius - Set My Heart on Fire Immediately  </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
