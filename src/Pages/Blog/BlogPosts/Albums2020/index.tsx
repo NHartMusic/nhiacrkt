@@ -160,7 +160,7 @@ export default function CustomizedAccordions() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+            <Accordion square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
                 <AccordionSummary>
                     <SubTitle>5. Nicolas Jaar - Cenizas </SubTitle>
                 </AccordionSummary>
@@ -173,9 +173,100 @@ export default function CustomizedAccordions() {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+            <Accordion square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
                 <AccordionSummary>
                     <SubTitle>6. Perfume Genius - Set My Heart on Fire Immediately  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+                <AccordionSummary>
+                    <SubTitle>7. Caribou - Suddenly</SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
+                <AccordionSummary>
+                    <SubTitle>8. Charli XCX - How I’m Feeling Now</SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
+                <AccordionSummary>
+                    <SubTitle>9. My Morning Jacket - The Waterfall II</SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
+                <AccordionSummary>
+                    <SubTitle>10. Denzel Curry + Kenny Beats - Unlocked</SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel11'} onChange={handleChange('panel11')}>
+                <AccordionSummary>
+                    <SubTitle>11. U.S. Girls - Heavy Light </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel12'} onChange={handleChange('panel12')}>
+                <AccordionSummary>
+                    <SubTitle>12. 070 Shake - Modus Vivendi </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel12'} onChange={handleChange('panel12')}>
+                <AccordionSummary>
+                    <SubTitle>13. Boldy James - The Versace Tape </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>

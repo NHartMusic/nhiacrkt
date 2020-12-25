@@ -1,6 +1,16 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
+export const Icon = styled.img`
+    width: 100%;
+    height: 100%;
+    min-width: 50px; 
+    min-height: 50px;
+    max-width: 100px; 
+    max-height: 100px;
+    padding: 10px;
+`
+
 export const ImageBanner = styled.img`
     display: flex;
     margin: 0 auto;
