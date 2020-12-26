@@ -14,6 +14,12 @@ export const ParagraphRegular = styled.p`
     font-size: 1.0em;
 `
 
+export const ParagraphRegularWhite = styled.p`
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0em;
+    color: white;
+`
+
 export const SubTitle = styled.p`
     display: flex;
     margin: 0 auto;

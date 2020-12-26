@@ -29,7 +29,7 @@ export const TextWrapperLeft = styled.div`
 export const IconBar = styled.div`
   display: flex;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 100px;
   justify-content: space-around;
   width: 100%;
 `
