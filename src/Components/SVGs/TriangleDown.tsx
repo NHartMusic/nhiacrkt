@@ -35,23 +35,21 @@ export const pathVariants = {
     }
 }
 
-export const Triangle = (): JSX.Element => {
+export const TriangleDown = (): JSX.Element => {
     return (
 
         <TriangleStyle
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
+            width="190" height="160"
             variants={svgVariants}
             initial='hidden'
             animate='visible'
         >
             <motion.path
                 fill="none"
-                d="M 50,5 95,97.5 5,97.5 z"
+                d="M 10 80 Q 52.5 10, 95 80 T 180 80"
                 variants={pathVariants}
             />
-
         </TriangleStyle>
-
     )
 }

@@ -15,7 +15,7 @@ import {
     CircleDarkBlue,
     CircleWrapper
 } from '../../UI/ScrollElements'
-import { Triangle } from '../../UI/SVG'
+import { TriangleUp } from '../../Components/SVGs'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
 
@@ -28,6 +28,7 @@ const Wrapper = styled.div`
 export default function Home(): JSX.Element {
     return (
         <>
+
             <CircleWrapper>
                 <CircleDarkBlue />
                 <CircleMediumBlue />
@@ -39,7 +40,7 @@ export default function Home(): JSX.Element {
             </CircleWrapper>
 
             <Wrapper>
-                <Triangle />
+                <TriangleUp />
             </Wrapper>
 
             <CircleWrapper>

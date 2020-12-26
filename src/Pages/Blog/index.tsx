@@ -3,9 +3,7 @@ import React, { PureComponent, ReactNode } from 'react'
 import { Title } from '../../UI/Typography'
 import { fade0, fade2 } from '../../UI/Media'
 import { TextWrapperCenter, FadeWrapperBlock } from '../../UI/Containers'
-import TopAlbums from '../../Components/TopAlbums'
 import Albums2020 from '../Blog/BlogPosts/Albums2020'
-
 
 interface Props { }
 interface State { }
