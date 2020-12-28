@@ -166,9 +166,27 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        From a production standpoint, Nicolas Jaar is absolutely the MVP of this year.
+                        Over the course of the past decade he has carved out a niche for himself as a
+                        producer and songwriter who refuses to be bound by any pre-existing genre constraints
+                        - in fact he seems to create new genres and styles with every release.
+                        In 2019 he crossed over from his devoted fanbase of experimental dance music lovers to
+                        the mainstream hip hop and RnB world by producing several standout tracks on
+                        FKA Twigs <i>Magdalene</i>, and he's been on a pretty unstoppable roll of quality
+                        releases ever since.
+                    </ParagraphRegular>
+                    <ParagraphRegular>
+                        <i>Cenizas</i> was released in mid-March, just as the world came to a screeching halt. True to
+                        it's name, which means 'ashes' in Jaar's mother tongue of Spanish, the album feels sparse,
+                        minimal, as if it was crafted from flames and scorched in the process. It's Jaar's most distinct
+                        work yet - which is no small feat for a producer this inventive and influential on the current
+                        experimental music scene. In terms of how 'out there' it gets on a sonic level,
+                        <i>Cenizas</i> sits somewhere between the ambient freakout of <i>Telas</i> which he released in July,
+                        and the industrial dance grooves of <i>2017 - 2019</i>, which he released under his Against All Logic
+                        moniker in February. Yes, that's correct, Jaar dropped 3 albums this year, 4 if you include the
+                        live album from his recently revived Darkside project. All of these albums appeared seemingly out
+                        of nowhere with little to no promotional build up, and all of them show an artist in peak form,
+                        trapped in an unstoppable momentum with seemingly no intention of slowing down any time soon.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
@@ -192,9 +210,10 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Not since Weye's Blood's excellent <i>Titanic Rising</i> early last year have I heard an
+                        album that lives up so well to its title. Dan Snaith's seventh album under his Caribou moniker
+                        pivots between styles on a dime and throws samples out of nowhere that inexplicably stick the
+                        landing every time.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
@@ -231,9 +250,11 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Denzel Curry is the latest rapper to take to social media and proclaim just how much
+                        he hates the rap game and the music industry in general, hinting at how he might not
+                        be in the business much longer. It's a shame, as his collaborative tape with Kenny
+                        Beats, clocking in at just over 20 minutes, firmly cements him as one of the top
+                        ten best rappers working today.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
@@ -244,9 +265,15 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        I could honestly do without the little spoken word interludes on this album, even though
+                        I know they add thematic subtext to the lyrical content about mysogny, capitalism, and
+                        societal expectations that are placed upon America's youth. However, with or without
+                        these little clips, if you were to judge albums purely on musicianship and arrangement,
+                        this is a strong contender for the best of the year. After expanding the use of electronics
+                        and production techniques on her last few albums, U.S. Girls mastermind Meg Remy made the
+                        curious decision to record the whole album live in the studio, which is incredibly impressive
+                        considering the massive vocal ensembles and layered instrumentation on some of these tracks.
+                        Released on International Women's Day, <i>Heavy Light</i> is a powerful
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>

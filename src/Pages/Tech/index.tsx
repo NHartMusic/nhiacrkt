@@ -33,13 +33,12 @@ class Tech extends PureComponent<Props, State> {
                     </TextWrapperCenter>
 
                     <IconBar>
-                        <a href="https://www.facebook.com/nhartmusic" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/NHartMusic" target="_blank" rel="noopener noreferrer">
                             <Icon src={github} />
                         </a>
-                        <a href="https://www.instagram.com/nhiacrkt/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.upwork.com/freelancers/~01ec95c3fb303082f8" target="_blank" rel="noopener noreferrer">
                             <Icon src={upwork} />
                         </a>
-
                         <a href="https://www.linkedin.com/in/nhartmusic/" target="_blank" rel="noopener noreferrer">
                             <Icon src={linkedin} />
                         </a>
