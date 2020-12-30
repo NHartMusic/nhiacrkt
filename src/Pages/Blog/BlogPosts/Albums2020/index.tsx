@@ -139,11 +139,13 @@ export default function CustomizedAccordions() {
                     <SubTitle>3. Run The Jewels - RTJ4 </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
-                    </ParagraphRegular>
+                    <TextWrapperLeft>
+                        <ParagraphRegular>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                            sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        </ParagraphRegular>
+                    </TextWrapperLeft>
                 </AccordionDetails>
             </Accordion>
 

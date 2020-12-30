@@ -18,7 +18,7 @@ export const ImageBanner = styled.img`
     min-width: 880px;
     min-height: 100px;
     max-width: 2200px;
-    max-height: 250px;
+    max-height: 200px;
     height: 100%;
     width: 100%;
 `
