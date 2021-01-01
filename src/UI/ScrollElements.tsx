@@ -2,13 +2,35 @@ import * as React from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion"
 import styled from 'styled-components'
 import { Blues } from '../UI/Colors'
-import { SmallDesktop, iPad, iPhone5 } from '../UI/MediaQueries'
+import { SmallDesktop, iPad, CircleBreakPoint1, CircleBreakPoint2, iPhone5 } from '../UI/MediaQueries'
 
 const ScrollWrapper = styled.div`
     width: 150px;
     height: 150px;
     display: flex;
     margin: 0 auto;
+
+    
+    @media ${SmallDesktop} {
+        width: 120px;
+        height: 120px;
+    }
+
+    @media ${iPad} {
+        width: 100px;
+        height: 100px;
+    }
+
+    @media ${CircleBreakPoint1} {
+        display: none;
+    }
+
+`
+
+const ScrollWrapperLightBlue = styled(ScrollWrapper)`
+    @media ${CircleBreakPoint1} {
+        display: none;
+    }
 `
 
 const ScrollContainer = styled(motion.div)`
@@ -21,6 +43,10 @@ const ScrollContainer = styled(motion.div)`
 
 export const ScrollContainerLightBlue = styled(ScrollContainer)`
     background: ${Blues[1]};
+
+    @media ${CircleBreakPoint1} {
+        display: none;
+    }
 `
 
 export const ScrollContainerMediumBlue = styled(ScrollContainer)`
@@ -35,11 +61,13 @@ export const CircleWrapper = styled.div`
     display: flex;
     margin: 0 auto;
     align-items: center;
+
+    @media ${CircleBreakPoint1} {
+        display: none;
+    }
 `
 
 const ScrollCircle = styled(motion.div)`
-    width: 100px;
-    height: 100px;
     transform-origin: 50% 50%;
     margin: 0 auto;
 `
@@ -73,7 +101,11 @@ export const CircleLightBlue = () => {
     const scale = useTransform(scrollYProgress, [0, 0.5], [0, 0.5]);
 
     return (
-        <ScrollWrapper>
+        <ScrollWrapperLightBlue
+            style={{
+
+            }}
+        >
             <ScrollContainerLightBlue
                 className="container"
                 style={{
@@ -87,7 +119,7 @@ export const CircleLightBlue = () => {
                     }}
                 />
             </ScrollContainerLightBlue>
-        </ScrollWrapper>
+        </ScrollWrapperLightBlue>
     )
 }
 

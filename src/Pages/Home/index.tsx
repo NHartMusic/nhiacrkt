@@ -18,6 +18,8 @@ import {
 import { TriangleUp } from '../../Components/SVGs'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
+//media queries
+import { iPad } from '../../UI/MediaQueries'
 
 const Wrapper = styled.div`
     display: flex;
@@ -25,11 +27,17 @@ const Wrapper = styled.div`
     align-items: center;
 `
 
+const Disappear = styled(CircleWrapper)`
+    @media ${iPad} {
+        display: none;
+    }
+`
+
 export default function Home(): JSX.Element {
     return (
         <>
 
-            <CircleWrapper>
+            <Disappear>
                 <CircleDarkBlue />
                 <CircleMediumBlue />
                 <CircleLightBlue />
@@ -37,17 +45,15 @@ export default function Home(): JSX.Element {
                 <CircleLightBlue />
                 <CircleMediumBlue />
                 <CircleDarkBlue />
-            </CircleWrapper>
+            </Disappear>
 
             <Wrapper>
                 <TriangleUp />
             </Wrapper>
 
-            <CircleWrapper>
-                <CircleLightBlue />
-                <Name />
-                <CircleLightBlue />
-            </CircleWrapper>
+            <Name />
+
+
 
             <ImageContainer
                 variants={fade4}
