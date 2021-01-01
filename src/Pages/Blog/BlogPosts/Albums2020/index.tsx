@@ -5,7 +5,7 @@ import MuiAccordionSummary from '@material-ui/core/AccordionSummary'
 import MuiAccordionDetails from '@material-ui/core/AccordionDetails'
 //component imports 
 import { SubTitle, ParagraphRegular } from '../../../../UI/Typography'
-import { TextWrapperLeft } from '../../../../UI/Containers'
+import { TextWrapperLeft, TextWrapperCenter, Container } from '../../../../UI/Containers'
 
 const Accordion = withStyles({
     root: {
@@ -141,9 +141,14 @@ export default function CustomizedAccordions() {
                 <AccordionDetails>
                     <TextWrapperLeft>
                         <ParagraphRegular>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                            sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            While this wasn't my favorite album of the year, if someone asked me what album I would pick to sum up 2020,
+                            this is the clear winner. Lyrically speaking, aesthetically speaking, not to mention all of Killer Mike's
+                            advocacy work and public appearances this year - no album in any genre seemed to put such a fine point
+                            on all of the ugly truths of the world that were brought to the surface by 2020. Not that the Grammy's
+                            matter at all, but the fact that they chose to snub THIS album in THIS year is absolutely inexplicable
+                            to me. This is the best hip hop project of 2020, the best album of RTJ's career, and the frontrunner for
+                            the album we're shooting into space to tell the aliens exactly how this dumpster fire of a year affected
+                            humanity.
                         </ParagraphRegular>
                     </TextWrapperLeft>
                 </AccordionDetails>
@@ -154,11 +159,21 @@ export default function CustomizedAccordions() {
                     <SubTitle>4. Dirty Projectors - 5EPs </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <TextWrapperLeft>
+                        <ParagraphRegular>
+                            The idea of <i>any</i> band releasing 5 projects, with each one focusing on a different band member,
+                        could easily be an overblown gimmick. I was especially skeptical of this plan coming from the Dirty Projectors,
+                        considering Dave Longstreth fired (and/or divorced) everyone from the band a few years ago, and reduced it to
+                        a solo project, before building it up again with a new lineup. I saw the DPs a couple times in 2018 with the
+                        new female vocalists doing a great job of performing songs written for their predecessors, but they still
+                        didn't feel quite as distinct as Deradoorian or Amber's unique styles from their earlier work.
                     </ParagraphRegular>
+                        <ParagraphRegular>
+                            So what a pleasant surprise it was to see that this series of EPs (now available to stream as one continuous
+                       project) is the best stuff Longstreth has put out since <i>Swing Lo Magellan</i> back in 2012. Longstreth and the
+                       three other vocalists, Felicia Douglass, Maia Friedman, and Kristin Slipp, all get their
+                    </ParagraphRegular>
+                    </TextWrapperLeft>
                 </AccordionDetails>
             </Accordion>
 
@@ -199,9 +214,12 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Michael Alden Hadreas inches ever closer to mainstream pop music with every release as Perfume
+                        Genius, but just when it gets too comfortable, he'll stretch his voice into something grotesque,
+                        or take a quick dip into shoegaze, or even throw you into the middle of what sounds like a gregorian
+                        chant. This is one of those albums that you can never really replicate what it was like to listen to
+                        the first time - it's like watching a movie with twists and turns that come out of nowhere and add
+                        new context to the rest of the narrative with each new plot development.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
@@ -215,7 +233,9 @@ export default function CustomizedAccordions() {
                         Not since Weye's Blood's excellent <i>Titanic Rising</i> early last year have I heard an
                         album that lives up so well to its title. Dan Snaith's seventh album under his Caribou moniker
                         pivots between styles on a dime and throws samples out of nowhere that inexplicably stick the
-                        landing every time.
+                        landing every time. Inspired by how death and divorce can shake up your life in unexpected ways,
+                        this is some of the most emotional music Snaith has ever released, and it ranks among his best.
+                        This was the first great album of the year, and I still find myself replaying it regularly.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
@@ -226,29 +246,34 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        This was my favorite 'pop' album of the year, which feels strange to say, as Charli XCX does
+                        better experimental electronic music here than Arca and Oneohtrix Point Never did this year. It may
+                        be borderline unlistenable to casual fans of shiny, polished pop music, but the hooks and melodies
+                        are undeniable even to those who hate the metallic clanging and distorted synths. This is probably
+                        the best and least cringey "quarantine" inspired album to come out of this year, and I found it
+                        infinitely more interesting than just about anything Charli has released yet.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
 
             <Accordion square expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
                 <AccordionSummary>
-                    <SubTitle>9. My Morning Jacket - The Waterfall II</SubTitle>
+                    <SubTitle>9. Denzel Curry + Kenny Beats - Unlocked</SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Denzel Curry is the latest rapper to take to social media and proclaim just how much
+                        he hates the rap game and the music industry in general, hinting at how he might not
+                        be in the business much longer. It's a shame, as his collaborative tape with Kenny
+                        Beats, clocking in at just over 20 minutes, firmly cements him as one of the top
+                        ten best rappers working today.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
 
             <Accordion square expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
                 <AccordionSummary>
-                    <SubTitle>10. Denzel Curry + Kenny Beats - Unlocked</SubTitle>
+                    <SubTitle>10. My Morning Jacket - The Waterfall II</SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
@@ -263,7 +288,24 @@ export default function CustomizedAccordions() {
 
             <Accordion square expanded={expanded === 'panel11'} onChange={handleChange('panel11')}>
                 <AccordionSummary>
-                    <SubTitle>11. U.S. Girls - Heavy Light </SubTitle>
+                    <SubTitle>11. Freddie Gibbs/The Alchemist - Alfredo </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Freddie Gibbs has released at least one full length project every single year for the past 4
+                        years straight, and is seemingly unstoppable on his quest to work with all the best producers
+                        in the game. This album was surprise released at the beginning of the BLM protests this summer,
+                        and tracks like <i>Scottie Beam</i> are eerily prescient in their timing. But even when it's not
+                        poingant or timely, and just focuses on Freddie's normal subject matter (cocaine), it's still
+                        a hell of a lot of fun. The Alchemist's sample choices here are inspired, further cementing his place
+                        as top 5 living rap producers.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel11'} onChange={handleChange('panel11')}>
+                <AccordionSummary>
+                    <SubTitle>12. U.S. Girls - Heavy Light </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
@@ -275,34 +317,402 @@ export default function CustomizedAccordions() {
                         and production techniques on her last few albums, U.S. Girls mastermind Meg Remy made the
                         curious decision to record the whole album live in the studio, which is incredibly impressive
                         considering the massive vocal ensembles and layered instrumentation on some of these tracks.
-                        Released on International Women's Day, <i>Heavy Light</i> is a powerful
+                        Released on International Women's Day, <i>Heavy Light</i> is a powerful piece of inspirational
+                        soul music, deeply indebted to timeless classics, but unmistakeably modern in its construction.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion square expanded={expanded === 'panel12'} onChange={handleChange('panel12')}>
+            <Accordion square expanded={expanded === 'panel13'} onChange={handleChange('panel13')}>
                 <AccordionSummary>
-                    <SubTitle>12. 070 Shake - Modus Vivendi </SubTitle>
+                    <SubTitle>13. 070 Shake - Modus Vivendi </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Not everyone can handle hopping between genres this easily, let alone on their debut album.
+                        Back in January, shortly before the shit really hit the fan this year, Kanye's most talented
+                        new discovery in recent years released her long-awaited first full length album, which pivots
+                        effortlessly throughout new wave, dark electronic soul and experimental pop music. Not to mention,
+                        the anime-inspired album cover is easily one of the most striking pieces of album art from this year.
                     </ParagraphRegular>
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion square expanded={expanded === 'panel12'} onChange={handleChange('panel12')}>
+            <Accordion square expanded={expanded === 'panel14'} onChange={handleChange('panel14')}>
                 <AccordionSummary>
-                    <SubTitle>13. Boldy James - The Versace Tape </SubTitle>
+                    <SubTitle>14. Boldy James - The Versace Tape </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <ParagraphRegular>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                        sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        Griselda records had a hell of a year. I can't say I really kept up with it that well,
+                        as such a lot of their albums are in my "still to rank" category at the bottom of this
+                        page. The one album that I listened to and enjoyed the most out of their 10+ album
+                        output this year was Boldy James' <i>The Versace Tape</i>, which had a bit of a more
+                        woozy, psychedelic vibe compared to some of his labelmates more hard-edged work.
                     </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel15'} onChange={handleChange('panel15')}>
+                <AccordionSummary>
+                    <SubTitle>15. Four Tet - Sixteen Oceans </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        This Four Tet album is some of his more straightforward dance music in recent years,
+                        yet it somehow fits the vibe of quarantining and social distancing from your friends
+                        better than songs I've heard this year with actual lyrics about how much isolation
+                        sucks. The incredibly prolific producer has two new albums he just dropped that I
+                        haven't gotten around to listening to yet, not to mention a collaborative album
+                        with Madlib on the way. This guy just doesn't get bored. Nor does he make bad music.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel16'} onChange={handleChange('panel16')}>
+                <AccordionSummary>
+                    <SubTitle>16. Destroyer - Have We Met  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Easily Dan Bejar's best album since <i>Kaputt</i>. The transition to synth pop
+                        is never easy for such a lyrical songwriter, and Bejar handles it much better here
+                        than I've seen someone like Bright Eyes or even Car Seat Headrest accomplish.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel17'} onChange={handleChange('panel17')}>
+                <AccordionSummary>
+                    <SubTitle>17. Against All Logic - 2017-2019  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        The first of 3 studio albums from Nicolas Jaar this year is his most pure dance
+                        music release to date. In 2020 Jaar basically accomplished the opposite of what
+                        Bruce Banner and The Hulk did in Avengers Endgame; instead of merging his two
+                        musical personas, he definitively split them up, and by doing so, allowed them
+                        room to breathe. For the artistic crew, we still have his ambient, jazz inspired
+                        work under his own name, but for the fans that fell in love with Jaar for his
+                        peerless Boiler Room set, AAL seems like it's here to stay. This second album
+                        under the moniker is agressive, metallic, and features some of the best transitions
+                        between songs I've ever heard.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel18'} onChange={handleChange('panel18')}>
+                <AccordionSummary>
+                    <SubTitle>18. Conway the Machine - From King to A GOD  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        There's a reason why Nas says that Conway is the 'new god of rap'. Although
+                        he's not my favorite member of the Griselda crew, this is definitely some of the
+                        purestm darkest r.a.p. music I've heard in a minute. And it's a better Nas album
+                        than the album Nas put out this year.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel19'} onChange={handleChange('panel19')}>
+                <AccordionSummary>
+                    <SubTitle>19. The Seshen - Cyan  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Oakland sextet The Seshen continue to merge styles in unexpected ways, blurring the
+                        lines between not only genres but instruments themselves. It's unclear what's a synthesizer,
+                        what's a bass, even at some times what is a vocal and what is an instrument. What is clear
+                        though, is that this is still my favorite local band out of the Bay Area, and this is their
+                        best album yet.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel20'} onChange={handleChange('panel20')}>
+                <AccordionSummary>
+                    <SubTitle>20. Yves Tumor - Heaven to a Tortured Mind  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        <i>Kerosene</i> is the best guitar playing on any song I've heard this year. Although
+                        there's a few songs on here that feel a little less composed than Tumor's previous work,
+                        that track alone gets it a spot in the top 20. Not to mention the sampling on the opening
+                        track is just *chef's kiss*
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel21'} onChange={handleChange('panel21')}>
+                <AccordionSummary>
+                    <SubTitle>21. Kali Uchis - Sin Miedo (del Amor y Otros Demonios) ∞  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        I'm not sure if this was a surprise release, or if there was an album rollout, but this one
+                        came out of nowhere for me. Partially aided by the fact that it's almost entirely in Spanish
+                        this time around, this is Kali's most cohesive album work yet, with all the tracks transitioning
+                        nicely together and all the features gelling perfectly with the album's production.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel22'} onChange={handleChange('panel22')}>
+                <AccordionSummary>
+                    <SubTitle>22. Westside Gunn - Pray for Paris </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        I know a lot of people consider Westside Gunn to be Griselda's MVP. I know a lot
+                        of other people think he has the most obnoxious voice in all of hip hop. I sit somewhere
+                        between these two camps. I absolutely think his adlibs are fucking terrible, but this album has
+                        some of the smoothest beats and best bars of any project released this year. There's something
+                        strangely endearing about Gunn's whiney voice in the same way that there is about Danny Brown's
+                        voice. Although he's not as clever or humorous as Brown, he's certainly the most distinct of the Griselda
+                        bunch, and I look forward to seeing him simultaneously thrill and annoy hip hop nerds for years to come.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel23'} onChange={handleChange('panel23')}>
+                <AccordionSummary>
+                    <SubTitle>23. The Strokes - The New Abnormal  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        The Strokes made a really good album again! That's it. That's the whole review.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel24'} onChange={handleChange('panel24')}>
+                <AccordionSummary>
+                    <SubTitle>24. Nas - King’s Disease  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        I've had a hard time getting hyped about Nas' music after learning just how horrible and abusive
+                        he was as a husband to Kelis. However, his influence as one of the greatest rappers of all time is
+                        undeniable, and as much as he has become a bit of a guilty pleasure of sorts for me - this really
+                        is a fucking great hip hop album. The samples are killer, his delivery is impeccable as always,
+                        the album cover is interesting.. Whatever your take on him is, it's honestly one of his better
+                        works in the past decade.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel25'} onChange={handleChange('panel25')}>
+                <AccordionSummary>
+                    <SubTitle>25. Jim-E Stack - Ephemera  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Don't want to wax poetic too much here as Jimmy Stack is my biological first cousin. All I will
+                        say is that I'm really proud of him for putting out an excellent piece of work and it's thrilling
+                        to see the kind of mainstream attention he has been getting recently.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel26'} onChange={handleChange('panel26')}>
+                <AccordionSummary>
+                    <SubTitle>26. Benny The Butcher - Burden of Proof  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Benny is the most established (and I think the oldest?) member of Griselda, and the only one
+                        who didn't feel the need to put out a shit ton of projects in 2020. Burden of Proof is classic,
+                        timeless, straight forward coke rap, nothing fancy about it.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel27'} onChange={handleChange('panel27')}>
+                <AccordionSummary>
+                    <SubTitle>27. Gorillaz - Song Machine Season One: Strange Times</SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        In a weird way, this almost sounds like the album Damon Albarn always meant to make with
+                        his animated band Gorillaz - and it's not even really an album. Instead of trying to piece together
+                        another concept album, Albarn spent 2020 releasing individual tracks with some of the wackiest
+                        collaborations in the projects entire run, complete with animated music videos for each one,
+                        and interactive online material for fans to play around with. Released from the confines of
+                        thematic consistency, this is Albarn in full on mad scientist mode, sticking Elton John and
+                        6LACK on the same song, having Goldlink rap over instrumentation from Unknown Mortal Orchestra -
+                        it's just fucking bonkers through and through. Although I wish some artists were utilized better
+                        (some actual lead vocals from St. Vincent would have been cool), standouts like EARTHGANG's 7-minute
+                       <i>Opium</i> and Peter Hook's guitar playing on <i>Aries</i> are some of the best work ever produced
+                       under the Gorillaz moniker. Who knows if the next release will be a full length album or another 'season'
+                       of Song Machine? Either way, Albarn seems to be more loose and creative than he has in years.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel28'} onChange={handleChange('panel28')}>
+                <AccordionSummary>
+                    <SubTitle>28. Tame Impala - The Slow Rush</SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Even though this album had one of the worst album rollouts of all time (singles released over the span
+                        of a year, some which ended up on the finished album and some that didn't, effectively killing any
+                        potential hype), Kevin Parker's fourth record is still some of the slickest psychedelic music being
+                        produced today. His obsession with drums is more noticeable than ever, occasionally at the detriment
+                        to other parts of the sonic texture, but this is definitely Tame Impala's grooviest work yet - his time
+                        spent in LA clubs and touring with Mark Ronson is deeply imbeded in the production. Whether he continues
+                        down this lane of sci-fi yacht rock or harkens back to his earlier, trippier work remains to be seen,
+                        but this album further solidifies his standing as one of the controlling forces of modern rock and roll.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel29'} onChange={handleChange('panel29')}>
+                <AccordionSummary>
+                    <SubTitle>29. Zelooperz - Moszel Offline </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        The most consistent of Zelooperz' 3 releases this year, Moszel Offline firmly establishes the Bruiser
+                        Brigade member as an equally distinct rapper to his more famous counterpart Danny Brown. This is the
+                        shortest of his releases this year, but it packs the most punchlines, the hardest beats, and sums up
+                        everything he's capable in a neat little package. I firmly expect 2021 to bring more wacky goodness
+                        from him.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel30'} onChange={handleChange('panel30')}>
+                <AccordionSummary>
+                    <SubTitle>30. Dehd - Flowers of Devotion </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Dehd's evolution on their third album is subtle, but significant. Released only a year after
+                        their last record, the increase in production quality (and use of reverb) is notable, without
+                        drastically changing their sound. Instead of minimalist garage pop, there's a shiny new wave
+                        edge to the guitars, and detailed vocal harmonies that makes better use of having multiple vocalists.
+                        Given how much acclaim they got for this album, I'm not sure what they'll do next - I hope they don't
+                        all the sudden get in to a big studio with a big name producer and make it <i>too</i> polished, as
+                        <i>Flowers of Devotion</i> seems like they've really nailed a perfect medium of refining their sound
+                        without getting rid of the scrappy low fi charm that made us all fans to begin with.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel31'} onChange={handleChange('panel31')}>
+                <AccordionSummary>
+                    <SubTitle>31. Spillage Village - Spilligion </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        Another year, another album where all of J Cole's labelmates and affiliated acts put out work that's
+                        inifintely more interesting than his mid tier solo stuff. While Cole was off picking fights with Noname
+                        for... not educating him enough or whatever the fuck that song was about, Earthgang, JID and their
+                        supergroup of seemingly endless rappers and singers primarily from the Atlanta region put out their
+                        biggest record yet, with collaborations from major names such as Chance the Rapper and Ari Lennox. Although it's
+                        still kind of unclear who is considered an actual member of this 'collective' (is 6LACK a full timer??),
+                        this is definitely some of the most exciting hip hop from some of the most talented artists working in the
+                        genre today.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel32'} onChange={handleChange('panel32')}>
+                <AccordionSummary>
+                    <SubTitle>32. Fleet Foxes - Shore </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        One of the most surprising artists to surprise release an album this year was Fleet Foxes,
+                        a group that I wasn't sure we would hear from again anytime soon, considering the 6-year
+                        gap between their second and third albums. Their fourth release is one of their longest
+                        records yet, and although it doesn't seem quite as whimsical and mysterious as their earlier
+                        work, it's just as lush as you'd expect from them, only perhaps a bit more grown up this time around.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel32'} onChange={handleChange('panel32')}>
+                <AccordionSummary>
+                    <SubTitle>33. LA Priest - Gene  </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <ParagraphRegular>
+                        One of the most surprising artists to surprise release an album this year was Fleet Foxes,
+                        a group that I wasn't sure we would hear from again anytime soon, considering the 6-year
+                        gap between their second and third albums. Their fourth release is one of their longest
+                        records yet, and although it doesn't seem quite as whimsical and mysterious as their earlier
+                        work, it's just as lush as you'd expect from them, only perhaps a bit more grown up this time around.
+                    </ParagraphRegular>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion square expanded={expanded === 'panel51'} onChange={handleChange('panel51')}>
+                <AccordionSummary>
+                    <SubTitle>Albums 51 - 100 </SubTitle>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Container>
+                        <TextWrapperCenter>
+                            <ParagraphRegular>
+                                <ul>
+                                    <li>51. Oneohtrix Point Never - Magic Oneohtrix Point Never</li>
+                                    <li>52. Gabriel Garzon Montano - Aguita</li>
+                                    <li>53. Statik Selektah - The Balancing Act</li>
+                                    <li>54. Chester Watson - A Japanese Horror Film</li>
+                                    <li>55. Waxahatchee - Saint Cloud</li>
+                                    <li>56. Angel Olsen - Whole New Mess</li>
+                                    <li>57. Com Truise - In Decay, Too</li>
+                                    <li>58. Damaged Bug - Bug on Yonkers</li>
+                                    <li>59. Boldy James/Sterling Toles - Manger on McNichols</li>
+                                    <li>60. King Gizzard and the Lizard Wizard - KG</li>
+                                    <li>61. Hum - Inlet</li>
+                                    <li>62. Tops - I Feel Alive</li>
+                                    <li>63. Conway the Machine - No One Mourns the Wicked</li>
+                                    <li>64. Darkside - Psychic Live July 14 2014</li>
+                                    <li>65. Quelle Chris - Innocent Country 3</li>
+                                    <li>66. Larry June/Cardo - Cruise USA</li>
+                                    <li>67. Thee Oh Sees - Panther Rotate</li>
+                                    <li>68. Shrines - Armand Hammer</li>
+                                    <li>69. Jay Electronica - A Written Testimony</li>
+                                    <li>70. Caroline Rose - Superstar</li>
+                                    <li>71. Thee Oh Sees - Metamorphosed</li>
+                                    <li>72. Bad Nerves - Bad Nerves</li>
+                                    <li>73. Khruangbin - Mordechai</li>
+                                    <li>74. Knxwledge - 1988</li>
+                                    <li>75. King Krule - Man Alive!</li>
+                                    <li>76. Zelooperz - Gremlin</li>
+                                    <li>77. Car Seat Headrest - Making a Door Less Open</li>
+                                    <li>78. Larry June/Harry Fraud - Keep Going</li>
+                                    <li>79. Joji - Nectar</li>
+                                    <li>80. Mac Miller - Circles</li>
+                                    <li>81. Grimes - Miss Anthropocene</li>
+                                    <li>82. Kamaiyah - Got It Made</li>
+                                    <li>83. Larry June - Adjust to the Game</li>
+                                    <li>84. Dua Lipa - Future Nostalgia</li>
+                                    <li>85. Evan Myall - Evan Myall</li>
+                                    <li>86. Thao and the Get Down Stay Down - Temple</li>
+                                    <li>87. Real Estate - The Main Thing</li>
+                                    <li>88. Fuzz - III</li>
+                                    <li>89. Clipping. - Visions of Bodies Being Burned</li>
+                                    <li>90. Roc Marciano - Mt. Marci</li>
+                                    <li>91. Folklore - Taylor Swift</li>
+                                    <li>92. Rico Nasty - Nightmare Vacation</li>
+                                    <li>93. Kamaiyah - No Explanations</li>
+                                    <li>94. Playboi Carti - Whole Lotta Red</li>
+                                    <li>95. Sufjan Stevens - The Ascension</li>
+                                    <li>96. Porches - Ricky Music</li>
+                                    <li>97. Nicolas Jaar - Telas</li>
+                                    <li>98. Childish Gambino - 3.15.2020</li>
+                                    <li>99. Kamaiyah - Oakland Nights</li>
+                                    <li>100. Phoebe Bridgers - Punisher</li>
+                                </ul>
+
+                            </ParagraphRegular>
+                        </TextWrapperCenter>
+                    </Container>
                 </AccordionDetails>
             </Accordion>
         </div>

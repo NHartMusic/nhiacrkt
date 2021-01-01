@@ -26,7 +26,7 @@ class Blog extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>Top 50 Albums of 2020</Title>
+                        <Title>Top 100 Albums of 2020</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
                 <FadeWrapperBlock

@@ -1,12 +1,17 @@
 import styled from 'styled-components'
 import { Blues, Greens, Greyscale } from './Colors'
 import { Link } from 'react-router-dom'
+import { SmallDesktop, iPad } from '../UI/MediaQueries'
 
 export const ParagraphLarge = styled.p`
     font-family: Sora;
     color: white;
     text-decoration: none;
     font-size: 1.2em;
+    
+    @media ${SmallDesktop} {
+        font-size: 1.0em;
+    }
 `
 
 export const ParagraphRegular = styled.p`
@@ -45,4 +50,5 @@ export const Title = styled.h1`
   color: white;
   text-decoration: none;
   font-size: 4em;
+  text-align: center;
 `

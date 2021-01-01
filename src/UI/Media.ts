@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
+import { SmallDesktop, iPad } from '../UI/MediaQueries'
 
 export const Icon = styled.img`
     width: 100%;
@@ -9,6 +10,11 @@ export const Icon = styled.img`
     max-width: 100px; 
     max-height: 100px;
     padding: 10px;
+
+    @media ${iPad} {
+        max-width: 50px;
+        max-height: 50px;
+    }
 `
 
 export const ImageBanner = styled.img`
@@ -21,6 +27,10 @@ export const ImageBanner = styled.img`
     max-height: 200px;
     height: 100%;
     width: 100%;
+
+    @media ${SmallDesktop} {
+        display: none;
+    }
 `
 
 export const ImageLarge = styled.img`
@@ -33,6 +43,20 @@ export const ImageLarge = styled.img`
     max-height: 700px;
     height: 100%;
     width: 100%;
+
+    @media ${SmallDesktop} {
+        height: 100%;
+        width: 100%;
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    @media ${iPad} {
+        height: 100%;
+        width: 100%;
+        max-width: 400px;
+        max-height: 400px;
+    }
 `
 
 export const ImageSmall = styled.img`

@@ -2,6 +2,7 @@ import * as React from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion"
 import styled from 'styled-components'
 import { Blues } from '../UI/Colors'
+import { SmallDesktop, iPad, iPhone5 } from '../UI/MediaQueries'
 
 const ScrollWrapper = styled.div`
     width: 150px;

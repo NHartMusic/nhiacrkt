@@ -20,10 +20,7 @@ const FooterText = styled(ParagraphRegular)`
 const Footer = () => (
   <StyledFooter>
     <FooterText>
-      © {new Date().getFullYear()} &nbsp;<TextLink to='https://www.kiekurecords.com/'>Kieku Records</TextLink>
-    </FooterText>
-    <FooterText>
-      Site built by &nbsp;<TextLink to='https://github.com/NHartAbout'>Nick Hart</TextLink>
+      © {new Date().getFullYear()} &nbsp;Nick Hart
     </FooterText>
   </StyledFooter>
 )

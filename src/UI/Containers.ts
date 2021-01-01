@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
+import { SmallDesktop, iPad, iPhone5 } from '../UI/MediaQueries'
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -19,17 +20,25 @@ export const FadeWrapperBlock = styled(motion.div)`
 export const TextWrapperCenter = styled.div`
   display: flex;
   margin: 20px 0px;
+
+  ul {
+  list-style-type: none;
+}
 `
 
 export const TextWrapperLeft = styled.div`
   display: block;
   margin: 30px 100px;
+
+  @media ${SmallDesktop} {
+    margin: 25px;
+  }
 `
 
 export const IconBar = styled.div`
   display: flex;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 70px;
   justify-content: space-around;
   width: 100%;
 `

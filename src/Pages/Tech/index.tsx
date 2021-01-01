@@ -52,9 +52,16 @@ class Tech extends PureComponent<Props, State> {
                 >
                     <TextWrapperLeft>
                         <ParagraphRegularWhite>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                            sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            Trained in full-stack web development at UC Berkeley. Experienced with Google Ads and Analytics.
+                            Squarespace Circle certified developer. Official Wix Partner. Over 50 projects on Github. Some of
+                            them actually contain some pretty decent code.
+                        </ParagraphRegularWhite>
+                        <ParagraphRegularWhite>
+                            I wrote all the code for this website you are currently looking at, all by myself! This particular
+                            site may look very minimal, but it was written with a combination of some of the hottest contemporary
+                            coding tech, including React, Typescript, Framer Motion for animations, and a couple Material UI components
+                            for some flashy interactive stuff. Click the GitHub logo below to check out all my repositories, including
+                            this one.
                         </ParagraphRegularWhite>
                     </TextWrapperLeft>
                 </FadeWrapperBlock>

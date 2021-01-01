@@ -65,17 +65,15 @@ export default function Home(): JSX.Element {
                     I worked in the music industry for over 5 years before that. I love designing websites and I
                     fucking hate the Grateful Dead.
                 </ParagraphLarge>
-            </TextWrapperLeft >
 
-            <CircleWrapper>
-                <ButtonWrapper href={require('../../Assets/Kieku_Pitch_Deck.pdf')} target="_blank">
-                    <PDFLink>
-                        <ParagraphLarge>
-                            Download My Resume Here
-                        </ParagraphLarge>
-                    </PDFLink>
-                </ButtonWrapper>
-            </CircleWrapper>
+                <ParagraphLarge>
+                    This website is a work in progress. The only reason I'm putting it up in such an unfinished manner
+                    is because I wanted to share my end of the year albums list with everyone before we reached 2021. Check
+                    back in a few days and this website will have a lot more content and look a whole lot more impressive.
+                </ParagraphLarge>
+            </TextWrapperLeft>
+
+
 
         </>
     )
