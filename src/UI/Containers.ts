@@ -33,6 +33,10 @@ export const TextWrapperLeft = styled.div`
   @media ${SmallDesktop} {
     margin: 25px;
   }
+
+  @media ${iPad} {
+    text-align: center;
+  }
 `
 
 export const IconBar = styled.div`

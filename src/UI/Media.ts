@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-import { SmallDesktop, iPad } from '../UI/MediaQueries'
+import { SmallDesktop, iPad, CircleBreakPoint1 } from '../UI/MediaQueries'
 
 export const Icon = styled.img`
     width: 100%;
@@ -15,6 +15,7 @@ export const Icon = styled.img`
         max-width: 50px;
         max-height: 50px;
     }
+    
 `
 
 export const ImageBanner = styled.img`
@@ -54,9 +55,12 @@ export const ImageLarge = styled.img`
     @media ${iPad} {
         height: 100%;
         width: 100%;
+        min-width: 250px;
+        min-width: 200px;
         max-width: 400px;
         max-height: 400px;
     }
+
 `
 
 export const ImageSmall = styled.img`

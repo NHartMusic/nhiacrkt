@@ -56,10 +56,8 @@ class Connect extends PureComponent<Props, State> {
                             Just kidding, I check and respond to any messages I get on any platform pretty
                             obsessively. Unless you're a tech recruiter. If you have a serious job offer,
                             please reach out to me via LinkedIn or any of the other platforms listed on the
-                            Tech page. My personal contact info is also available on my CV on the home page.
-                            If you send me anything Grateful Dead related, or you contact me on behalf of some
-                            big tech recruiting firm, I will promptly block you and report you for spam and
-                            human rights abuses.
+                            Tech page. If you send me anything Grateful Dead related, or you contact me on behalf of some
+                            big tech recruiting firm, I will promptly block you and report you for human rights abuses.
                         </ParagraphRegularWhite>
                     </TextWrapperLeft >
                 </FadeWrapperBlock>

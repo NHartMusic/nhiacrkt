@@ -1,13 +1,12 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 import styled from 'styled-components'
 //Components
 import Name from '../../Components/Name'
 import Circles from '../../Components/Circles'
 //UI Elements
-import { ImageLarge, ImageContainer, fade1, fade4 } from '../../UI/Media'
+import { ImageLarge, ImageContainer, ImageSmall, fade4 } from '../../UI/Media'
 import { ParagraphLarge } from '../../UI/Typography'
-import { TextWrapperCenter, TextWrapperLeft } from '../../UI/Containers'
+import { TextWrapperLeft } from '../../UI/Containers'
 import { Triangle } from '../../Components/SVGs'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
@@ -31,6 +30,7 @@ export default function Home(): JSX.Element {
 
             <Name />
 
+
             <ImageContainer
                 variants={fade4}
                 initial='hidden'
@@ -38,6 +38,7 @@ export default function Home(): JSX.Element {
             >
                 <ImageLarge src={Golden_Gate} />
             </ImageContainer>
+
 
             <TextWrapperLeft>
                 <ParagraphLarge>
@@ -50,8 +51,10 @@ export default function Home(): JSX.Element {
 
                 <ParagraphLarge>
                     This website is a work in progress. The only reason I'm putting it up in such an unfinished manner
-                    is because I wanted to share my end of the year albums list with everyone before we reached 2021. Check
-                    back in a few days and this website will have a lot more content and look a whole lot more impressive.
+                    is because I wanted to share my end of the year albums list with everyone before we reached 2021. I
+                    got a little sidetracked when the greatest rapper of all time was revealed to have passed away. Still
+                    fine tuning everything. Check back in a few days and this website will have a lot more content and
+                    look a whole lot more impressive.
                 </ParagraphLarge>
             </TextWrapperLeft>
 
