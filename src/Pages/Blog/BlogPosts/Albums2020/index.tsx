@@ -288,7 +288,7 @@ export default function CustomizedAccordions() {
                 <AccordionDetails>
                     <TextWrapperLeft>
                         <ParagraphRegular>
-                            After a 5-year absence, the Louiseville, Kentucky 5-piece return with their
+                            After a 5-year absence, the Louisville, Kentucky 5-piece return with their
                             first ever "sequel" album. This is significant not only because it once again
                             re-establishes that MMJ is in the pantheon of greatest living American rock bands,
                             but because it demonstrates that they have settled into a signature tone, no longer

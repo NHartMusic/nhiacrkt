@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53eb38f644a717a104b1436cf5a2ede0",
+    "revision": "fe80e7b332839fc799492bfec7a13ce0",
     "url": "/index.html"
   },
   {
-    "revision": "22b56948d5025eebead0",
-    "url": "/static/js/2.a4157bfa.chunk.js"
+    "revision": "fc6991d99bb04c3c7e7e",
+    "url": "/static/js/2.d8c8e4a3.chunk.js"
   },
   {
     "revision": "05542f73db2c31c5889e516d924a2952",
-    "url": "/static/js/2.a4157bfa.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d8c8e4a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00e0ffdd519151450600",
-    "url": "/static/js/main.5dbd5d60.chunk.js"
+    "revision": "6e55010f5eb01894fccd",
+    "url": "/static/js/main.d49af7c7.chunk.js"
   },
   {
     "revision": "415e9bcf6c081ea50565",
@@ -24,12 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Golden_Gate.e0d17fb5.png"
   },
   {
-    "revision": "997680f555b197caf6ef5be9e8bd7a0e",
-    "url": "/static/media/Kieku_Pitch_Deck.997680f5.pdf"
+    "revision": "65aa3a6f4c244593ee656ffaab806aa5",
+    "url": "/static/media/Kaleidescope_05.65aa3a6f.png"
+  },
+  {
+    "revision": "55e6741920a2f53bd15838fdd7b36c42",
+    "url": "/static/media/bandcamp.55e67419.png"
   },
   {
     "revision": "d0489a4801939a3c638e6ab72096ac6c",
     "url": "/static/media/facebook.d0489a48.png"
+  },
+  {
+    "revision": "d19bbdb4c119b7d984414179907a58d1",
+    "url": "/static/media/github.d19bbdb4.png"
   },
   {
     "revision": "76223a1724ed143d331e38e3da84f8f9",
@@ -40,11 +48,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.30eda404.png"
   },
   {
+    "revision": "50c101bab922489d860b761bd68caf6d",
+    "url": "/static/media/soundcloud.50c101ba.png"
+  },
+  {
     "revision": "91ddd196a3c149dd605de88803a433da",
     "url": "/static/media/twitter.91ddd196.png"
   },
   {
-    "revision": "2eec2ac5ec3db0257bf99e9da71a4dbc",
-    "url": "/static/media/upwork.2eec2ac5.png"
+    "revision": "e3aff5fd51036c943e9e076e5bf5144d",
+    "url": "/static/media/upwork.e3aff5fd.png"
   }
 ]);

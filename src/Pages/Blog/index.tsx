@@ -52,6 +52,10 @@ class Blog extends PureComponent<Props, State> {
                           music, experimental music, pop music and many other genres had some phenomenal releases. Enjoy this
                           list, and feel free to send me death threats on social media if you don't agree. RIP Daniel Dumile.
                         </ParagraphLarge>
+
+                        <ParagraphLarge>
+                            View last year's list <a href="https://top50albums2019.web.app/" target="_none">here</a>
+                        </ParagraphLarge>
                     </TextWrapperLeft>
                 </FadeWrapperBlock>
 
