@@ -1,10 +1,10 @@
 import React, { PureComponent, ReactNode } from 'react'
-import { NameDesktop, NameMobile } from './MobileResponsiveness'
+import { CirclesMobile, CirclesDesktop } from './MobileResponsiveness'
 
 interface Props { }
 interface State { }
 
-class Name extends PureComponent<Props, State> {
+class Circles extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -16,11 +16,11 @@ class Name extends PureComponent<Props, State> {
     render(): ReactNode {
         return (
             <>
-                <NameDesktop />
-                <NameMobile />
+                <CirclesDesktop />
+                <CirclesMobile />
             </>
         )
     }
 }
 
-export default Name
+export default Circles

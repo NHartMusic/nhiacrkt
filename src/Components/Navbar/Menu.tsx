@@ -9,6 +9,7 @@ const MenuWrapper = styled.div`
     margin: 0 auto;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 25px;
 `
 
 

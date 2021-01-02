@@ -3,23 +3,15 @@ import { motion } from 'framer-motion'
 import styled from 'styled-components'
 //Components
 import Name from '../../Components/Name'
+import Circles from '../../Components/Circles'
 //UI Elements
 import { ImageLarge, ImageContainer, fade1, fade4 } from '../../UI/Media'
 import { ParagraphLarge } from '../../UI/Typography'
 import { TextWrapperCenter, TextWrapperLeft } from '../../UI/Containers'
-import { ButtonWrapper, PDFLink, Banner } from './styles'
-import {
-    CircleWhite,
-    CircleLightBlue,
-    CircleMediumBlue,
-    CircleDarkBlue,
-    CircleWrapper
-} from '../../UI/ScrollElements'
-import { TriangleUp } from '../../Components/SVGs'
+import { Triangle } from '../../Components/SVGs'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
-//media queries
-import { iPad } from '../../UI/MediaQueries'
+
 
 const Wrapper = styled.div`
     display: flex;
@@ -27,33 +19,17 @@ const Wrapper = styled.div`
     align-items: center;
 `
 
-const Disappear = styled(CircleWrapper)`
-    @media ${iPad} {
-        display: none;
-    }
-`
-
 export default function Home(): JSX.Element {
     return (
         <>
 
-            <Disappear>
-                <CircleDarkBlue />
-                <CircleMediumBlue />
-                <CircleLightBlue />
-                <CircleWhite />
-                <CircleLightBlue />
-                <CircleMediumBlue />
-                <CircleDarkBlue />
-            </Disappear>
+            <Circles />
 
             <Wrapper>
-                <TriangleUp />
+                <Triangle />
             </Wrapper>
 
             <Name />
-
-
 
             <ImageContainer
                 variants={fade4}

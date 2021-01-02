@@ -1,5 +1,5 @@
-import { TriangleUp } from './TriangleUp'
+import { Triangle } from './Triangle'
 
 export {
-    TriangleUp,
+    Triangle
 }
