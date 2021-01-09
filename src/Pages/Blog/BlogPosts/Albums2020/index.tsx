@@ -235,7 +235,7 @@ export default function CustomizedAccordions() {
                 <AccordionDetails>
                     <TextWrapperLeft>
                         <ParagraphRegular>
-                            Not since Weye's Blood's excellent <i>Titanic Rising</i> early last year have I heard an
+                            Not since Weyes Blood's excellent <i>Titanic Rising</i> early last year have I heard an
                         album that lives up so well to its title. Dan Snaith's seventh album under his Caribou moniker
                         pivots between styles on a dime and throws samples out of nowhere that inexplicably stick the
                         landing every time. Inspired by how death and divorce can shake up your life in unexpected ways,
@@ -1151,6 +1151,7 @@ export default function CustomizedAccordions() {
                         <TextWrapperCenter>
                             <ParagraphRegular>
                                 <ul>
+                                    <li>Sparks - A Steady Drip, Drip, Drip</li>
                                     <li>Jerry Paper - Abracadabra</li>
                                     <li>Kid Cudi - Man on the Moon Pt. III</li>
                                     <li>Kamaiyah - Oakland Nights</li>
@@ -1162,6 +1163,7 @@ export default function CustomizedAccordions() {
                                     <li>Larry June/Berner - Cooks and Orange Juice</li>
                                     <li>Knxwledge - 10,000 Proof </li>
                                     <li>Ka - Descendents of Cain</li>
+                                    <li>Teyana Taylor - The Album</li>
                                 </ul>
                             </ParagraphRegular>
                         </TextWrapperCenter>
@@ -1178,6 +1180,7 @@ export default function CustomizedAccordions() {
                         <TextWrapperCenter>
                             <ParagraphRegular>
                                 <ul>
+                                    <li>Yellow Days - A Day in a Yellow Beat</li>
                                     <li>Black Atlas - Dream Awake</li>
                                     <li>Taylor Swift - Evermore</li>
                                     <li>Westside Gunn - Who Made the Sunshine </li>
