@@ -1,15 +1,31 @@
+import React, { PureComponent, ReactNode } from 'react'
+import styled from 'styled-components'
 
 import { Title, ParagraphLarge, ParagraphRegular, TextLink } from '../../UI/Typography'
 import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
-import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock, IconBar } from '../../UI/Containers'
+import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock, FadeWrapperFlex, IconBar } from '../../UI/Containers'
 import { soundcloud, bandcamp } from '../../Assets/icons'
 import { ParagraphRegularWhite } from '../../UI/Typography'
 import { Icon } from '../../UI/Media'
 
-import React, { PureComponent, ReactNode } from 'react'
+
 
 interface Props { }
 interface State { }
+
+const MediaPlayer = styled.iframe`
+   border: 0; 
+   width: 300px; 
+   height: 300px;
+   padding: 10px;
+`
+
+const MediaPlayerFlexbox = styled.div`
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+`
 
 class Music extends PureComponent<Props, State> {
     constructor(props: Props) {
@@ -55,6 +71,27 @@ class Music extends PureComponent<Props, State> {
                             </ParagraphRegularWhite>
                         </TextWrapperLeft>
                     </FadeWrapperBlock>
+
+                    <FadeWrapperFlex
+                        variants={fade2}
+                        initial='hidden'
+                        animate='visible'
+                    >
+                        <MediaPlayerFlexbox>
+                            <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1659106200/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
+                                <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-iii">Op1 Jams Vol. III by NICK HΔRT</a>
+                            </MediaPlayer>
+
+                            <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1659106200/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
+                                <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-iii">Op1 Jams Vol. III by NICK HΔRT</a>
+                            </MediaPlayer>
+
+                            <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1659106200/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
+                                <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-iii">Op1 Jams Vol. III by NICK HΔRT</a>
+                            </MediaPlayer>
+                        </MediaPlayerFlexbox>
+                    </FadeWrapperFlex>
+
 
 
                     <IconBar>
