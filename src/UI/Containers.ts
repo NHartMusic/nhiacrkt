@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-import { SmallDesktop, iPad, iPhone5 } from '../UI/MediaQueries'
+import { SmallDesktop, MediaPlayerBreakPoint, iPad, iPhone5 } from '../UI/MediaQueries'
+
+export const CaptionBlock = styled.div`
+  display: block; 
+  text-align: center;
+`
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -17,6 +22,7 @@ export const FadeWrapperFlex = styled(motion.div)`
 export const FadeWrapperBlock = styled(motion.div)`
   display: block;
 `
+
 export const TextWrapperCenter = styled.div`
   display: flex;
   margin: 20px 0px;

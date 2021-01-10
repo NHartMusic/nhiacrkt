@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-import { SmallDesktop, iPad, CircleBreakPoint1 } from '../UI/MediaQueries'
+import { SmallDesktop, MediaPlayerBreakPoint, iPad, CircleBreakPoint1 } from '../UI/MediaQueries'
 
 export const Icon = styled.img`
     width: 100%;
@@ -60,7 +60,6 @@ export const ImageLarge = styled.img`
         max-width: 400px;
         max-height: 400px;
     }
-
 `
 
 export const ImageSmall = styled.img`
@@ -130,3 +129,23 @@ export const fade4 = {
         transition: { delay: 1.2, duration: 3.5 }
     }
 }
+
+export const MediaPlayer = styled.iframe`
+   border: 0; 
+   width: 300px; 
+   height: 300px;
+   padding: 10px;
+`
+
+export const MediaPlayerFlexbox = styled.div`
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+
+    @media ${MediaPlayerBreakPoint} {
+        display: block;
+        align-content: center;
+        align-items: center;
+    }
+`

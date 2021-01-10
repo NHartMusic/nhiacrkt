@@ -1,31 +1,28 @@
 import React, { PureComponent, ReactNode } from 'react'
 import styled from 'styled-components'
 
-import { Title, ParagraphLarge, ParagraphRegular, TextLink } from '../../UI/Typography'
+import {
+    ParagraphLarge,
+    ParagraphRegularWhite,
+    SubTitle,
+    Title,
+    TextLink
+} from '../../UI/Typography'
 import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
-import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock, FadeWrapperFlex, IconBar } from '../../UI/Containers'
+import {
+    CaptionBlock,
+    FadeWrapperBlock,
+    FadeWrapperFlex,
+    IconBar,
+    TextWrapperCenter,
+    TextWrapperLeft,
+} from '../../UI/Containers'
 import { soundcloud, bandcamp } from '../../Assets/icons'
-import { ParagraphRegularWhite } from '../../UI/Typography'
-import { Icon } from '../../UI/Media'
-
+import { Icon, MediaPlayer, MediaPlayerFlexbox } from '../../UI/Media'
 
 
 interface Props { }
 interface State { }
-
-const MediaPlayer = styled.iframe`
-   border: 0; 
-   width: 300px; 
-   height: 300px;
-   padding: 10px;
-`
-
-const MediaPlayerFlexbox = styled.div`
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-content: center;
-`
 
 class Music extends PureComponent<Props, State> {
     constructor(props: Props) {
@@ -70,25 +67,47 @@ class Music extends PureComponent<Props, State> {
                                 on my Trusty Op1. Head over to the Blog page to see my list of my top 100 albums of the year.
                             </ParagraphRegularWhite>
                         </TextWrapperLeft>
+
+                        <TextWrapperCenter>
+                            <Title>Op1 Recordings</Title>
+                        </TextWrapperCenter>
                     </FadeWrapperBlock>
+
+
 
                     <FadeWrapperFlex
                         variants={fade2}
                         initial='hidden'
                         animate='visible'
                     >
+
                         <MediaPlayerFlexbox>
-                            <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1659106200/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
-                                <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-iii">Op1 Jams Vol. III by NICK HΔRT</a>
-                            </MediaPlayer>
+                            <CaptionBlock>
+                                <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1014304121/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless>
+                                    <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-i-songs-of-the-chap">Op1 Jams Vol. I: Songs of The Chap by NICK HΔRT</a>
+                                </MediaPlayer>
+                                <TextWrapperCenter>
+                                    <SubTitle>Vol I</SubTitle>
+                                </TextWrapperCenter>
+                            </CaptionBlock>
 
-                            <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1659106200/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
-                                <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-iii">Op1 Jams Vol. III by NICK HΔRT</a>
-                            </MediaPlayer>
+                            <CaptionBlock>
+                                <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=560414848/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless>
+                                    <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-ii-travel-tunes">Op1 Jams Vol. II: Travel Tunes by NICK HΔRT</a>
+                                </MediaPlayer>
+                                <TextWrapperCenter>
+                                    <SubTitle>Vol II</SubTitle>
+                                </TextWrapperCenter>
+                            </CaptionBlock>
 
-                            <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1659106200/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
-                                <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-iii">Op1 Jams Vol. III by NICK HΔRT</a>
-                            </MediaPlayer>
+                            <CaptionBlock>
+                                <MediaPlayer src="https://bandcamp.com/EmbeddedPlayer/album=1659106200/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
+                                    <a href="https://nhiacrkt.bandcamp.com/album/op1-jams-vol-iii">Op1 Jams Vol. III by NICK HΔRT</a>
+                                </MediaPlayer>
+                                <TextWrapperCenter>
+                                    <SubTitle>Vol III</SubTitle>
+                                </TextWrapperCenter>
+                            </CaptionBlock>
                         </MediaPlayerFlexbox>
                     </FadeWrapperFlex>
 
