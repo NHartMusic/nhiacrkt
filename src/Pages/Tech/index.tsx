@@ -6,6 +6,7 @@ import { fade0, fade1, fade2, fade3, ImageSmall, Icon, ImageContainer, } from '.
 import { TextWrapperCenter, IconBar, TextWrapperLeft, FadeWrapperBlock, FadeWrapperFlex } from '../../UI/Containers'
 import { github, linkedin, upwork } from '../../Assets/icons'
 import Tech_Triangle_01 from '../../Assets/Tech_Triangle_01.png'
+import Tech_Triangle_02 from '../../Assets/Tech_Triangle_02.png'
 
 interface Props { }
 interface State { }
@@ -41,7 +42,9 @@ class Tech extends PureComponent<Props, State> {
                 initial='hidden'
                 animate='visible'>
                     <IconBar>
+                        <Icon src={Tech_Triangle_02} />
                         <Icon src={Tech_Triangle_01} />
+                        <Icon src={Tech_Triangle_02} />
                     </IconBar>
                 </FadeWrapperFlex>
                 
