@@ -2,12 +2,11 @@ import React, { PureComponent, ReactNode } from 'react'
 import styled from 'styled-components'
 //ui imports
 import { Title, ParagraphLarge, ParagraphRegularWhite, TextLink } from '../../UI/Typography'
-import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
-import { TextWrapperCenter, IconBar, TextWrapperLeft, FadeWrapperBlock } from '../../UI/Containers'
-
+import { fade0, fade1, fade2, fade3, ImageSmall, Icon, ImageContainer, } from '../../UI/Media'
+import { TextWrapperCenter, IconBar, TextWrapperLeft, FadeWrapperBlock, FadeWrapperFlex } from '../../UI/Containers'
 import { github, linkedin, upwork } from '../../Assets/icons'
-import { Icon, ImageContainer, ImageBanner } from '../../UI/Media'
-import Kaleidescope_05 from '../../Assets/Kaleidescope_05.png'
+import Tech_Triangle_01 from '../../Assets/Tech_Triangle_01.png'
+import Tech_Triangle_02 from '../../Assets/Tech_Triangle_02.png'
 
 interface Props { }
 interface State { }
@@ -25,13 +24,7 @@ class Tech extends PureComponent<Props, State> {
         return (
             <>
 
-                <ImageContainer
-                    variants={fade0}
-                    initial='hidden'
-                    animate='visible'
-                >
-                    <ImageBanner src={Kaleidescope_05} />
-                </ImageContainer>
+                
 
                 <FadeWrapperBlock
                     variants={fade1}
@@ -44,6 +37,17 @@ class Tech extends PureComponent<Props, State> {
 
                 </FadeWrapperBlock>
 
+                <FadeWrapperFlex
+                variants={fade0}
+                initial='hidden'
+                animate='visible'>
+                    <IconBar>
+                        <Icon src={Tech_Triangle_02} />
+                        <Icon src={Tech_Triangle_01} />
+                        <Icon src={Tech_Triangle_02} />
+                    </IconBar>
+                </FadeWrapperFlex>
+                
 
                 <FadeWrapperBlock
                     variants={fade2}

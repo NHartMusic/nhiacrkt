@@ -31,7 +31,7 @@ export const SubTitle = styled.p`
     font-family: Sora;
     color: white;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.4em;
 `
 
 export const TextLink = styled(Link)`
