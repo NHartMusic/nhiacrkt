@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc16ef975b0622f3ae5e3e9572825a01",
+    "revision": "fc94b4bf190685691de6e750a7bbe29a",
     "url": "/index.html"
   },
   {
-    "revision": "fc6991d99bb04c3c7e7e",
-    "url": "/static/js/2.d8c8e4a3.chunk.js"
+    "revision": "c24fc1733d13fa7f6826",
+    "url": "/static/js/2.dfe7d690.chunk.js"
   },
   {
     "revision": "05542f73db2c31c5889e516d924a2952",
-    "url": "/static/js/2.d8c8e4a3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.dfe7d690.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "088607de3b6d5610d67b",
-    "url": "/static/js/main.043e0e67.chunk.js"
+    "revision": "b164b6301f8544db9fc5",
+    "url": "/static/js/main.8c008984.chunk.js"
   },
   {
     "revision": "415e9bcf6c081ea50565",
@@ -24,8 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Golden_Gate.e0d17fb5.png"
   },
   {
-    "revision": "65aa3a6f4c244593ee656ffaab806aa5",
-    "url": "/static/media/Kaleidescope_05.65aa3a6f.png"
+    "revision": "8f7d6339305312c712108048f98bed7d",
+    "url": "/static/media/Tech_Triangle_01.8f7d6339.png"
+  },
+  {
+    "revision": "f9ebdabce60698cff935ac8eb2c0ad93",
+    "url": "/static/media/Tech_Triangle_02.f9ebdabc.png"
   },
   {
     "revision": "55e6741920a2f53bd15838fdd7b36c42",
