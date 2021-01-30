@@ -58,7 +58,7 @@ class Tech extends PureComponent<Props, State> {
                         <ParagraphRegularWhite>
                             Trained in full-stack web development at UC Berkeley. Experienced with Google Ads and Analytics.
                             Squarespace Circle certified developer. Official Wix Partner. Over 50 projects on Github. Some of
-                            them actually contain some pretty decent code. Test.
+                            them actually contain some pretty decent code. 
                         </ParagraphRegularWhite>
                         <ParagraphRegularWhite>
                             I wrote all the code for this website you are currently looking at, all by myself! This particular
