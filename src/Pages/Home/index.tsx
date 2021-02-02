@@ -30,7 +30,6 @@ export default function Home(): JSX.Element {
 
             <Name />
 
-
             <ImageContainer
                 variants={fade4}
                 initial='hidden'
@@ -38,7 +37,6 @@ export default function Home(): JSX.Element {
             >
                 <ImageLarge src={Golden_Gate} />
             </ImageContainer>
-
 
             <TextWrapperLeft>
                 <ParagraphLarge>
@@ -49,9 +47,6 @@ export default function Home(): JSX.Element {
                     fucking hate the Grateful Dead.
                 </ParagraphLarge>
             </TextWrapperLeft>
-
-
-
         </>
     )
 }

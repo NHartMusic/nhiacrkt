@@ -1151,6 +1151,7 @@ export default function CustomizedAccordions() {
                         <TextWrapperCenter>
                             <ParagraphRegular>
                                 <ul>
+                                    <li>No Age - Goons Be Gone</li>
                                     <li>Sparks - A Steady Drip, Drip, Drip</li>
                                     <li>Jerry Paper - Abracadabra</li>
                                     <li>Kid Cudi - Man on the Moon Pt. III</li>

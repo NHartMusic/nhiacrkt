@@ -67,6 +67,10 @@ class Tech extends PureComponent<Props, State> {
                             for some flashy interactive stuff. Click the GitHub logo below to check out all my repositories, including
                             this one.
                         </ParagraphRegularWhite>
+                        <ParagraphRegularWhite>
+                           Check out some fun experiments I've done with the p5.js library &nbsp;
+                            <a target="_none" href="https://editor.p5js.org/nick.hart/sketches">here</a>.
+                        </ParagraphRegularWhite>
                     </TextWrapperLeft>
                 </FadeWrapperBlock>
 
