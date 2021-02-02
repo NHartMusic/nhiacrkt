@@ -54,12 +54,12 @@ class Blog extends PureComponent<Props, State> {
                         </ParagraphLarge>
 
                         <ParagraphLarge>
-                            Check out a playlist featuring music from this list 
+                            Check out a playlist featuring music from this list &nbsp;
                             <a href="https://open.spotify.com/playlist/2JuSHfIBGpA8qiMVR6xODZ?si=1d8zbYMcT5y3B0cuZPXdpQ" target="_none">here</a>.
                         </ParagraphLarge>
 
                         <ParagraphLarge>
-                            View last year's list <a href="https://top50albums2019.web.app/" target="_none">here</a>.
+                            View last year's list &nbsp; <a href="https://top50albums2019.web.app/" target="_none">here</a>.
                         </ParagraphLarge>
                     </TextWrapperLeft>
                 </FadeWrapperBlock>
