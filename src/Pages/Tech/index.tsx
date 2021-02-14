@@ -1,12 +1,23 @@
 import React, { PureComponent, ReactNode } from 'react'
-import styled from 'styled-components'
 //ui imports
 import { Title, ParagraphLarge, ParagraphRegularWhite, TextLink } from '../../UI/Typography'
-import { fade0, fade1, fade2, fade3, ImageSmall, Icon, ImageContainer, } from '../../UI/Media'
-import { TextWrapperCenter, IconBar, TextWrapperLeft, FadeWrapperBlock, FadeWrapperFlex } from '../../UI/Containers'
+import { 
+    fade0, 
+    fade1, 
+    fade2, 
+    Icon, 
+} from '../../UI/Media'
+import { 
+    TextWrapperCenter, 
+    IconBar, 
+    TextWrapperLeft, 
+    FadeWrapperBlock, 
+    FadeWrapperFlex 
+} from '../../UI/Containers'
 import { github, linkedin, upwork } from '../../Assets/icons'
 import Tech_Triangle_01 from '../../Assets/Tech_Triangle_01.png'
 import Tech_Triangle_02 from '../../Assets/Tech_Triangle_02.png'
+
 
 interface Props { }
 interface State { }
@@ -23,9 +34,6 @@ class Tech extends PureComponent<Props, State> {
     render(): ReactNode {
         return (
             <>
-
-                
-
                 <FadeWrapperBlock
                     variants={fade1}
                     initial='hidden'
@@ -86,7 +94,7 @@ class Tech extends PureComponent<Props, State> {
                     </a>
                 </IconBar>
 
-
+                
             </>
         )
     }

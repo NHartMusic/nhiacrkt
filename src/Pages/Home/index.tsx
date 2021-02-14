@@ -4,12 +4,13 @@ import styled from 'styled-components'
 import Name from '../../Components/Name'
 import Circles from '../../Components/Circles'
 //UI Elements
-import { ImageLarge, ImageContainer, ImageSmall, fade4 } from '../../UI/Media'
+import { GifSmall, ImageLarge, ImageContainer, ImageSmall, fade0, fade4 } from '../../UI/Media'
 import { ParagraphLarge } from '../../UI/Typography'
-import { TextWrapperLeft } from '../../UI/Containers'
+import { TextWrapperLeft, FadeWrapperFlex, Container } from '../../UI/Containers'
 import { Triangle } from '../../Components/SVGs'
 //Assets
 import Golden_Gate from '../../Assets/Golden_Gate.png'
+import {chrome_capture2} from '../../Assets/gifs'
 
 
 const Wrapper = styled.div`
@@ -47,6 +48,15 @@ export default function Home(): JSX.Element {
                     fucking hate the Grateful Dead.
                 </ParagraphLarge>
             </TextWrapperLeft>
+
+            <FadeWrapperFlex
+                variants={fade0}
+                initial='hidden'
+                animate='visible'>
+                <Container>
+                    <GifSmall src={chrome_capture2}/>
+                </Container>
+            </FadeWrapperFlex>
         </>
     )
 }

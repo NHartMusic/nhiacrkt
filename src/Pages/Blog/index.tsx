@@ -59,7 +59,7 @@ class Blog extends PureComponent<Props, State> {
                         </ParagraphLarge>
 
                         <ParagraphLarge>
-                            View last year's list &nbsp; <a href="https://top50albums2019.web.app/" target="_none">here</a>.
+                            View last year's list &nbsp;<a href="https://top50albums2019.web.app/" target="_none">here</a>.
                         </ParagraphLarge>
                     </TextWrapperLeft>
                 </FadeWrapperBlock>
