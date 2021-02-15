@@ -1,11 +1,12 @@
 import React from 'react'
 import { Route, Switch } from "react-router-dom"
-import styled from 'styled-components'
+import styled, {ThemeProvider} from 'styled-components'
 //components
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer'
 //pages
 import { Home, Music, Blog, Tech, Connect } from './Pages'
+import { GlobalStyles, theme } from './styles'
 
 const ContentWrapper = styled.div`
   height: 100%;
@@ -15,6 +16,8 @@ const ContentWrapper = styled.div`
 function App() {
   return (
     <>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <ContentWrapper>
         <Navbar />
         <Switch>
@@ -26,6 +29,7 @@ function App() {
         </Switch>
         <Footer />
       </ContentWrapper>
+      </ThemeProvider>
     </>
   )
 }
