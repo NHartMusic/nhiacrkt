@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Blues, Greens, Greyscale } from './Colors'
 import { Link } from 'react-router-dom'
-import { SmallDesktop, iPad } from '../UI/MediaQueries'
+import { SmallDesktop, iPad } from '../ui/MediaQueries'
 
 export const ParagraphLarge = styled.p`
     font-family: Sora;

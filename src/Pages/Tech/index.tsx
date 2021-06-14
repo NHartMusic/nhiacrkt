@@ -1,28 +1,28 @@
 import React, { PureComponent, ReactNode } from 'react'
 //ui imports
-import { Title, ParagraphLarge, ParagraphRegularWhite, TextLink } from '../../UI/Typography'
+import { Title, ParagraphLarge, ParagraphRegularWhite, TextLink } from '../../ui/Typography'
 import { 
     fade0, 
     fade1, 
     fade2, 
     Icon, 
-} from '../../UI/Media'
+} from '../../ui/Media'
 import { 
     TextWrapperCenter, 
     IconBar, 
     TextWrapperLeft, 
     FadeWrapperBlock, 
     FadeWrapperFlex 
-} from '../../UI/Containers'
-import { github, linkedin, upwork } from '../../Assets/icons'
-import Tech_Triangle_01 from '../../Assets/Tech_Triangle_01.png'
-import Tech_Triangle_02 from '../../Assets/Tech_Triangle_02.png'
+} from '../../ui/Containers'
+import { github, linkedin, upwork } from '../../assets/icons'
+import Tech_Triangle_01 from '../../assets/Tech_Triangle_01.png'
+import Tech_Triangle_02 from '../../assets/Tech_Triangle_02.png'
 
 
 interface Props { }
 interface State { }
 
-class Tech extends PureComponent<Props, State> {
+class tech extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -40,7 +40,7 @@ class Tech extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>Tech</Title>
+                        <Title>tech</Title>
                     </TextWrapperCenter>
 
                 </FadeWrapperBlock>
@@ -71,7 +71,7 @@ class Tech extends PureComponent<Props, State> {
                         <ParagraphRegularWhite>
                             I wrote all the code for this website you are currently looking at, all by myself! This particular
                             site may look very minimal, but it was written with a combination of some of the hottest contemporary
-                            coding tech, including React, Typescript, Framer Motion for animations, and a couple Material UI components
+                            coding tech, including React, Typescript, Framer Motion for animations, and a couple Material ui components
                             for some flashy interactive stuff. Click the GitHub logo below to check out all my repositories, including
                             this one.
                         </ParagraphRegularWhite>
@@ -100,4 +100,4 @@ class Tech extends PureComponent<Props, State> {
     }
 }
 
-export default Tech
+export default tech

@@ -2,11 +2,11 @@ import React, { PureComponent, ReactNode } from 'react'
 import styled from 'styled-components'
 //component imports
 import { FirstName, LastName, Center } from '../styles'
-import { TextWrapperCenter, FadeWrapperFlex } from '../../../UI/Containers'
-import { fade1, fade4 } from '../../../UI/Media'
+import { TextWrapperCenter, FadeWrapperFlex } from '../../../ui/Containers'
+import { fade1, fade4 } from '../../../ui/Media'
 //ui
-import { iPad } from '../../../UI/MediaQueries'
-import { CircleWrapper, CircleLightBlue } from '../../../UI/ScrollElements'
+import { iPad } from '../../../ui/MediaQueries'
+import { CircleWrapper, CircleLightBlue } from '../../../ui/ScrollElements'
 
 interface Props { }
 interface State { }

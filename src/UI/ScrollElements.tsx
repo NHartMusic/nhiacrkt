@@ -1,8 +1,8 @@
 import * as React from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion"
 import styled from 'styled-components'
-import { Blues } from '../UI/Colors'
-import { SmallDesktop, iPad, CircleBreakPoint1, CircleBreakPoint2, iPhone5 } from '../UI/MediaQueries'
+import { Blues } from '../ui/Colors'
+import { SmallDesktop, iPad, CircleBreakPoint1, CircleBreakPoint2, iPhone5 } from '../ui/MediaQueries'
 
 const ScrollWrapper = styled.div`
     width: 150px;

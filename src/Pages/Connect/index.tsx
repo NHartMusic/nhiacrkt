@@ -1,16 +1,16 @@
 import React, { PureComponent, ReactNode } from 'react'
-//UI Imports
-import { Title, ParagraphRegularWhite } from '../../UI/Typography'
-import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
-import { FadeWrapperBlock, IconBar, TextWrapperCenter, TextWrapperLeft } from '../../UI/Containers'
+//ui Imports
+import { Title, ParagraphRegularWhite } from '../../ui/Typography'
+import { fade0, fade1, fade2, fade3 } from '../../ui/Media'
+import { FadeWrapperBlock, IconBar, TextWrapperCenter, TextWrapperLeft } from '../../ui/Containers'
 //icons 
-import { facebook, instagram, linkedin, twitter } from '../../Assets/icons'
-import { Icon } from '../../UI/Media'
+import { facebook, instagram, linkedin, twitter } from '../../assets/icons'
+import { Icon } from '../../ui/Media'
 
 interface Props { }
 interface State { }
 
-class Connect extends PureComponent<Props, State> {
+class connect extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -28,7 +28,7 @@ class Connect extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>Connect</Title>
+                        <Title>connect</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
 
@@ -56,7 +56,7 @@ class Connect extends PureComponent<Props, State> {
                             Just kidding, I check and respond to any messages I get on any platform pretty
                             obsessively. Unless you're a tech recruiter. If you have a serious job offer,
                             please reach out to me via LinkedIn or any of the other platforms listed on the
-                            Tech page. If you send me anything Grateful Dead related, or you contact me on behalf of some
+                            tech page. If you send me anything Grateful Dead related, or you contact me on behalf of some
                             big tech recruiting firm, I will promptly block you and report you for human rights abuses.
                         </ParagraphRegularWhite>
                     </TextWrapperLeft >
@@ -87,4 +87,4 @@ class Connect extends PureComponent<Props, State> {
     }
 }
 
-export default Connect
+export default connect

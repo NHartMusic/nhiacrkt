@@ -5,9 +5,9 @@ import {
     CircleWhite,
     CircleMediumBlue,
     CircleWrapper
-} from '../../../UI/ScrollElements'
+} from '../../../ui/ScrollElements'
 //media queries
-import { iPad } from '../../../UI/MediaQueries'
+import { iPad } from '../../../ui/MediaQueries'
 
 const Appear = styled(CircleWrapper)`
     display: none;

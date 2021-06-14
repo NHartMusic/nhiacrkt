@@ -1,6 +1,6 @@
 import React from 'react'
-import { Title, TextLink } from '../../UI/Typography'
-import { TextWrapperCenter } from '../../UI/Containers'
+import { Title, TextLink } from '../../ui/Typography'
+import { TextWrapperCenter } from '../../ui/Containers'
 
 export default function PageTitle(): JSX.Element {
     return (

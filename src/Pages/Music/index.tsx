@@ -7,8 +7,8 @@ import {
     SubTitle,
     Title,
     TextLink
-} from '../../UI/Typography'
-import { fade0, fade1, fade2, fade3 } from '../../UI/Media'
+} from '../../ui/Typography'
+import { fade0, fade1, fade2, fade3 } from '../../ui/Media'
 import {
     CaptionBlock,
     FadeWrapperBlock,
@@ -16,15 +16,15 @@ import {
     IconBar,
     TextWrapperCenter,
     TextWrapperLeft,
-} from '../../UI/Containers'
-import { soundcloud, bandcamp } from '../../Assets/icons'
-import { Icon, MediaPlayer, MediaPlayerFlexbox } from '../../UI/Media'
+} from '../../ui/Containers'
+import { soundcloud, bandcamp } from '../../assets/icons'
+import { Icon, MediaPlayer, MediaPlayerFlexbox } from '../../ui/Media'
 
 
 interface Props { }
 interface State { }
 
-class Music extends PureComponent<Props, State> {
+class music extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -42,7 +42,7 @@ class Music extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>Music</Title>
+                        <Title>music</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
 
@@ -64,7 +64,7 @@ class Music extends PureComponent<Props, State> {
                                 several times and getting multiple dental surgeries to really get around to recording
                                 anything good, but I hope to have some new stuff on the way soon. Check out my Soundcloud
                                 below for a bunch of trash, and check out my Bandcamp for a bunch of recordings I made
-                                on my Trusty Op1. Head over to the Blog page to see my list of my top 100 albums of the year.
+                                on my Trusty Op1. Head over to the blog page to see my list of my top 100 albums of the year.
                             </ParagraphRegularWhite>
                         </TextWrapperLeft>
 
@@ -127,4 +127,4 @@ class Music extends PureComponent<Props, State> {
     }
 }
 
-export default Music
+export default music

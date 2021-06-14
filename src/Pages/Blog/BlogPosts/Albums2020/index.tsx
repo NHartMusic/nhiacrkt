@@ -4,8 +4,8 @@ import MuiAccordion from '@material-ui/core/Accordion'
 import MuiAccordionSummary from '@material-ui/core/AccordionSummary'
 import MuiAccordionDetails from '@material-ui/core/AccordionDetails'
 //component imports 
-import { SubTitle, ParagraphRegular } from '../../../../UI/Typography'
-import { TextWrapperLeft, TextWrapperCenter, Container } from '../../../../UI/Containers'
+import { SubTitle, ParagraphRegular } from '../../../../ui/Typography'
+import { TextWrapperLeft, TextWrapperCenter, Container } from '../../../../ui/Containers'
 
 const Accordion = withStyles({
     root: {
@@ -825,7 +825,7 @@ export default function CustomizedAccordions() {
                         <ParagraphRegular>
                             Similar to my reviews of Jim-E Stack and The Seshen's albums, I have a personal connection to this one that
                             naturally gives me a bit of bias so I will try and not gush too much. My homie Justin "J Hawk" Hawkins and
-                            his crew, the G.H.E.T.T.O Kids Music Group did a lot of the instrumentation on this album, and I'm super fucking
+                            his crew, the G.H.E.T.T.O Kids music Group did a lot of the instrumentation on this album, and I'm super fucking
                             proud of his work. This also just happens to be a super smooth, funk and energetic work that frankly sounded
                             unlike any other hip hop released this year. It's the kind of music I wish Goldlink was still making, it's like
                             BROCKHAMPTON if they actually got their hands on good quality therapy and antidepressants. The title is not lying.
@@ -836,7 +836,7 @@ export default function CustomizedAccordions() {
 
             <Accordion square expanded={expanded === 'panel39'} onChange={handleChange('panel39')}>
                 <AccordionSummary>
-                    <SubTitle>39. HAIM - Women in Music, Pt. III </SubTitle>
+                    <SubTitle>39. HAIM - Women in music, Pt. III </SubTitle>
                 </AccordionSummary>
                 <AccordionDetails>
                     <TextWrapperLeft>
@@ -1109,7 +1109,7 @@ export default function CustomizedAccordions() {
                                     <li>93. Kamaiyah - No Explanations</li>
                                     <li>94. Playboi Carti - Whole Lotta Red</li>
                                     <li>95. Sufjan Stevens - The Ascension</li>
-                                    <li>96. Porches - Ricky Music</li>
+                                    <li>96. Porches - Ricky music</li>
                                     <li>97. Nicolas Jaar - Telas</li>
                                     <li>98. Childish Gambino - 3.15.2020</li>
                                     <li>99. Kamaiyah - Oakland Nights</li>

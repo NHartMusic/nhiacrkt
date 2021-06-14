@@ -1,10 +1,10 @@
 import React, { PureComponent, ReactNode } from 'react'
 import styled from 'styled-components'
 import { FirstName, LastName, Center } from '../styles'
-import { TextWrapperCenter, FadeWrapperFlex } from '../../../UI/Containers'
-import { fade1, fade4 } from '../../../UI/Media'
+import { TextWrapperCenter, FadeWrapperFlex } from '../../../ui/Containers'
+import { fade1, fade4 } from '../../../ui/Media'
 //media queries
-import { iPad } from '../../../UI/MediaQueries'
+import { iPad } from '../../../ui/MediaQueries'
 
 interface Props { }
 interface State { }

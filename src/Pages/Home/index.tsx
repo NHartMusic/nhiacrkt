@@ -1,16 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 //Components
-import Name from '../../Components/Name'
-import Circles from '../../Components/Circles'
-//UI Elements
-import { GifSmall, ImageLarge, ImageContainer, ImageSmall, fade0, fade4 } from '../../UI/Media'
-import { ParagraphLarge } from '../../UI/Typography'
-import { TextWrapperLeft, FadeWrapperFlex, Container } from '../../UI/Containers'
-import { Triangle } from '../../Components/SVGs'
-//Assets
-import Golden_Gate from '../../Assets/Golden_Gate.png'
-import {chrome_capture2} from '../../Assets/gifs'
+import Name from '../../components/Name'
+import Circles from '../../components/circles'
+//ui Elements
+import { GifSmall, ImageLarge, ImageContainer, ImageSmall, fade0, fade4 } from '../../ui/Media'
+import { ParagraphLarge } from '../../ui/Typography'
+import { TextWrapperLeft, FadeWrapperFlex, Container } from '../../ui/Containers'
+import { Triangle } from '../../components/SVGs'
+//assets
+import Golden_Gate from '../../assets/Golden_Gate.png'
+import {chrome_capture2} from '../../assets/gifs'
 
 
 const Wrapper = styled.div`
@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     align-items: center;
 `
 
-export default function Home(): JSX.Element {
+export default function home(): JSX.Element {
     return (
         <>
 

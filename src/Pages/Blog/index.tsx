@@ -1,16 +1,16 @@
 import React, { PureComponent, ReactNode } from 'react'
 //component imports
-import { Title } from '../../UI/Typography'
-import { fade0, fade1, fade2 } from '../../UI/Media'
-import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../UI/Containers'
-import { ParagraphLarge } from '../../UI/Typography'
-import Albums2020 from '../Blog/BlogPosts/Albums2020'
+import { Title } from '../../ui/Typography'
+import { fade0, fade1, fade2 } from '../../ui/Media'
+import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../ui/Containers'
+import { ParagraphLarge } from '../../ui/Typography'
+import Albums2020 from '../blog/BlogPosts/Albums2020'
 
 
 interface Props { }
 interface State { }
 
-class Blog extends PureComponent<Props, State> {
+class blog extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -77,4 +77,4 @@ class Blog extends PureComponent<Props, State> {
     }
 }
 
-export default Blog
+export default blog

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-import { ParagraphLarge } from '../../UI/Typography'
-import { Blues } from '../../UI/Colors'
+import { ParagraphLarge } from '../../ui/Typography'
+import { Blues } from '../../ui/Colors'
 
 export const Center = styled.div`
     display: flex;

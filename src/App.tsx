@@ -2,10 +2,10 @@ import React from 'react'
 import { Route, Switch } from "react-router-dom"
 import styled from 'styled-components'
 //components
-import Navbar from './Components/Navbar/Navbar'
-import Footer from './Components/Footer'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer'
 //pages
-import { Home, Music, Blog, Tech, Connect } from './Pages'
+import { home, music, blog, tech, connect } from './pages'
 
 const ContentWrapper = styled.div`
   height: 100%;
@@ -18,11 +18,11 @@ function App() {
       <ContentWrapper>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path='/music' component={Music} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/tech" component={Tech} />
-          <Route path="/connect" component={Connect} />
+          <Route exact path="/" component={home} />
+          <Route path='/music' component={music} />
+          <Route path="/blog" component={blog} />
+          <Route path="/tech" component={tech} />
+          <Route path="/connect" component={connect} />
         </Switch>
         <Footer />
       </ContentWrapper>

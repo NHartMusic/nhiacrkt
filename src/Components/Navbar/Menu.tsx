@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { ParagraphLarge, TextLink } from '../../UI/Typography'
+import { ParagraphLarge, TextLink } from '../../ui/Typography'
 
 
 const MenuWrapper = styled.div`
@@ -18,19 +18,19 @@ export default function Menu(): JSX.Element {
         <MenuWrapper>
 
             <ParagraphLarge>
-                <TextLink to='/music'>Music</TextLink>
+                <TextLink to='/music'>music</TextLink>
             </ParagraphLarge>
 
             <ParagraphLarge>
-                <TextLink to='/tech'>Tech</TextLink>
+                <TextLink to='/tech'>tech</TextLink>
             </ParagraphLarge>
 
             <ParagraphLarge>
-                <TextLink to='/blog'>Blog</TextLink>
+                <TextLink to='/blog'>blog</TextLink>
             </ParagraphLarge>
 
             <ParagraphLarge>
-                <TextLink to='/connect'>Connect</TextLink>
+                <TextLink to='/connect'>connect</TextLink>
             </ParagraphLarge>
 
         </MenuWrapper>

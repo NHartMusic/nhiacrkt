@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { Cyans } from '../../UI/Colors'
-import { ImageLarge } from '../../UI/Media'
+import { Cyans } from '../../ui/Colors'
+import { ImageLarge } from '../../ui/Media'
 //media queries
-import { ImageBreakPoint1 } from '../../UI/MediaQueries'
+import { ImageBreakPoint1 } from '../../ui/MediaQueries'
 
 export const ButtonWrapper = styled.a`
     display: flex;

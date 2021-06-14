@@ -6,9 +6,9 @@ import {
     CircleMediumBlue,
     CircleDarkBlue,
     CircleWrapper
-} from '../../../UI/ScrollElements'
+} from '../../../ui/ScrollElements'
 //media queries
-import { iPad } from '../../../UI/MediaQueries'
+import { iPad } from '../../../ui/MediaQueries'
 
 const Disappear = styled(CircleWrapper)`
     @media ${iPad} {
