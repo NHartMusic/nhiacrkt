@@ -24,12 +24,11 @@ import { Icon, MediaPlayer, MediaPlayerFlexbox } from '../../ui/Media'
 interface Props { }
 interface State { }
 
-class music extends PureComponent<Props, State> {
+class Music extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
         this.state = {
-
         }
     }
 
@@ -127,4 +126,4 @@ class music extends PureComponent<Props, State> {
     }
 }
 
-export default music
+export default Music
