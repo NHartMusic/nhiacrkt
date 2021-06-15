@@ -15,7 +15,7 @@ const TriangleStyle = styled(motion.svg)`
     margin-top: 20px;
     width: 80px;
     overflow: visible;
-    stroke: #fff;
+    stroke: #000000;
     stroke-width: 4;
     stroke-linejoin: round;
     stroke-linecap: round;
