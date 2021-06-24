@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Name from '../../components/Name'
 import Circles from '../../components/circles'
 //ui Elements
-import { GifSmall, ImageLarge, ImageContainer, ImageSmall, fade0, fade4 } from '../../ui/Media'
+import { GifSmall, ImageLarge, ImageContainer, fade0, fade4 } from '../../ui/Media'
 import { ParagraphLarge } from '../../ui/Typography'
 import { TextWrapperLeft, FadeWrapperFlex, Container } from '../../ui/Containers'
 import { Triangle } from '../../components/SVGs'
@@ -22,7 +22,6 @@ const Wrapper = styled.div`
 export default function home(): JSX.Element {
     return (
         <>
-
             <Circles />
 
             <Wrapper>

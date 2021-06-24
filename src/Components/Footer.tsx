@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 //styles
-import { ParagraphRegular, TextLink } from '../ui/Typography'
+import { ParagraphRegular } from '../ui/Typography'
 
 const StyledFooter = styled.footer`
   display: flex;

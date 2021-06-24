@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-import { SmallDesktop, MediaPlayerBreakPoint, iPad, CircleBreakPoint1 } from '../ui/MediaQueries'
+import { SmallDesktop, MediaPlayerBreakPoint, iPad } from '../ui/MediaQueries'
 
 export const GifSmall = styled.img`
        width: 100%;

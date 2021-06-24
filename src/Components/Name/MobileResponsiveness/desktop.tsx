@@ -2,7 +2,7 @@ import React, { PureComponent, ReactNode } from 'react'
 import styled from 'styled-components'
 //component imports
 import { FirstName, LastName, Center } from '../styles'
-import { TextWrapperCenter, FadeWrapperFlex } from '../../../ui/Containers'
+import { FadeWrapperFlex } from '../../../ui/Containers'
 import { fade1, fade4 } from '../../../ui/Media'
 //ui
 import { iPad } from '../../../ui/MediaQueries'

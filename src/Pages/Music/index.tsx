@@ -1,14 +1,11 @@
 import React, { PureComponent, ReactNode } from 'react'
-import styled from 'styled-components'
 
 import {
-    ParagraphLarge,
     ParagraphRegularWhite,
     SubTitle,
-    Title,
-    TextLink
+    Title
 } from '../../ui/Typography'
-import { fade0, fade1, fade2, fade3 } from '../../ui/Media'
+import { fade0, fade1, fade2 } from '../../ui/Media'
 import {
     CaptionBlock,
     FadeWrapperBlock,

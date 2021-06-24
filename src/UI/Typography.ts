@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { Blues, Greens, Greyscale } from './Colors'
+import { Blues } from './Colors'
 import { Link } from 'react-router-dom'
-import { SmallDesktop, iPad } from '../ui/MediaQueries'
+import { SmallDesktop } from '../ui/MediaQueries'
 
 export const ParagraphLarge = styled.p`
     font-family: Sora;
@@ -36,9 +36,9 @@ export const SubTitle = styled.p`
 
 export const TextLink = styled(Link)`
     text-decoration: none;
-    color: blue;
+    color: ${Blues[6]};
     &:hover {
-        color: ${Blues[2]};
+        color: ${Blues[3]};
         transition: 0.3s;
     }
 `
@@ -47,7 +47,7 @@ export const Title = styled.h1`
   display: flex;
   margin: 0 auto;
   font-family: Sora;
-  color: blue;
+  color: ${Blues[5]};
   text-decoration: none;
   font-size: 4em;
   text-align: center;

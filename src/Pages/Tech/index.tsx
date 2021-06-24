@@ -1,6 +1,6 @@
 import React, { PureComponent, ReactNode } from 'react'
 //ui imports
-import { Title, ParagraphLarge, ParagraphRegularWhite, TextLink } from '../../ui/Typography'
+import { Title, ParagraphRegularWhite } from '../../ui/Typography'
 import { 
     fade0, 
     fade1, 

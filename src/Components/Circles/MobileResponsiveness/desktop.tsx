@@ -32,13 +32,13 @@ class CirclesDesktop extends PureComponent<Props, State> {
         return (
             <>
                 <Disappear>
-                    <CircleDarkBlue />
-                    <CircleMediumBlue />
                     <CircleLightBlue />
+                    <CircleMediumBlue />
+                    <CircleDarkBlue />
                     <CircleWhite />
-                    <CircleLightBlue />
-                    <CircleMediumBlue />
                     <CircleDarkBlue />
+                    <CircleMediumBlue />
+                    <CircleLightBlue />
                 </Disappear>
             </>
         )

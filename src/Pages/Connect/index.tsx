@@ -10,7 +10,7 @@ import { Icon } from '../../ui/Media'
 interface Props { }
 interface State { }
 
-class connect extends PureComponent<Props, State> {
+class Connect extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -28,7 +28,7 @@ class connect extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>connect</Title>
+                        <Title>Connect</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
 
@@ -87,4 +87,4 @@ class connect extends PureComponent<Props, State> {
     }
 }
 
-export default connect
+export default Connect

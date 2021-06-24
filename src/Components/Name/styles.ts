@@ -11,10 +11,10 @@ export const Center = styled.div`
 
 export const FirstName = styled(ParagraphLarge)`
     font-size: 2.5em;
-    color: ${Blues[1]}
+    color: black;
 `
 
 export const LastName = styled(ParagraphLarge)`
     font-size: 2.5em;
-    color: ${Blues[6]}
+    color: ${Blues[4]}
 `

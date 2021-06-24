@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-import { SmallDesktop, MediaPlayerBreakPoint, iPad, iPhone5 } from '../ui/MediaQueries'
+import { SmallDesktop, iPad } from '../ui/MediaQueries'
 
 export const CaptionBlock = styled.div`
   display: block; 

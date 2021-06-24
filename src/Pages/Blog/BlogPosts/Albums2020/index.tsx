@@ -26,7 +26,7 @@ const Accordion = withStyles({
 
 const AccordionSummary = withStyles({
     root: {
-        backgroundColor: 'black',
+        backgroundColor: 'white',
         borderBottom: 'blue',
         minHeight: 56,
         '&$expanded': {
@@ -171,7 +171,9 @@ export default function CustomizedAccordions() {
                         <ParagraphRegular>
                             So what a pleasant surprise it was to see that this series of EPs (now available to stream as one continuous
                        project) is the best stuff Longstreth has put out since <i>Swing Lo Magellan</i> back in 2012. Longstreth and the
-                       three other vocalists, Felicia Douglass, Maia Friedman, and Kristin Slipp, all get their
+                       three other vocalists, Felicia Douglass, Maia Friedman, and Kristin Slipp, all get their moments to shine and then 
+                       some. While it may not be 100% cohesive as an 'album', this firmly squashed any doubts I had in this lineup, and
+                       provides me with a great deal of hope for the project going forwards. 
                     </ParagraphRegular>
                     </TextWrapperLeft>
                 </AccordionDetails>
@@ -861,7 +863,7 @@ export default function CustomizedAccordions() {
                     <TextWrapperLeft>
                         <ParagraphRegular>
                             Whether or not you enjoy her music, there are some serious objective truths in the Vice article
-                            that posits Arca as the <a href="https://www.vice.com/en/article/evj9k4/arca-is-the-artist-of-the-decade" target="_blank">
+                            that posits Arca as the <a href="https://www.vice.com/en/article/evj9k4/arca-is-the-artist-of-the-decade" target="_blank" rel="noopener noreferrer">
                                 artist of the decade</a>. I found some of the song transitions and switches between genres (especially the first 3)
                             a bit jarring on this album, but it's still really cool to see her play around with something that almost resembles pop
                             music. While I still prefer Arca when she's just full out experimental and bonkers, some of the sweeter melodic moments

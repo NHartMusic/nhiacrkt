@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { ParagraphLarge, TextLink } from '../../ui/Typography'
-
 
 const MenuWrapper = styled.div`
     display: flex;
@@ -11,7 +9,6 @@ const MenuWrapper = styled.div`
     width: 100%;
     margin-bottom: 25px;
 `
-
 
 export default function Menu(): JSX.Element {
     return (
