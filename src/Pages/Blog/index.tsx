@@ -1,6 +1,6 @@
 import React, { PureComponent, ReactNode } from 'react'
 //component imports
-import { Title } from '../../ui/Typography'
+import { Title, ExternalLink } from '../../ui/Typography'
 import { fade0, fade1, fade2 } from '../../ui/Media'
 import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../ui/Containers'
 import { ParagraphLarge } from '../../ui/Typography'
@@ -54,11 +54,11 @@ class Blog extends PureComponent<Props, State> {
 
                         <ParagraphLarge>
                             Check out a playlist featuring music from this list &nbsp;
-                            <a href="https://open.spotify.com/playlist/2JuSHfIBGpA8qiMVR6xODZ?si=1d8zbYMcT5y3B0cuZPXdpQ" target="_none">here</a>.
+                            <ExternalLink href="https://open.spotify.com/playlist/2JuSHfIBGpA8qiMVR6xODZ?si=1d8zbYMcT5y3B0cuZPXdpQ" target="_none">here</ExternalLink>.
                         </ParagraphLarge>
 
                         <ParagraphLarge>
-                            View last year's list &nbsp;<a href="https://top50albums2019.web.app/" target="_none">here</a>.
+                            View last year's list &nbsp;<ExternalLink href="https://top50albums2019.web.app/" target="_none">here</ExternalLink>.
                         </ParagraphLarge>
                     </TextWrapperLeft>
                 </FadeWrapperBlock>
