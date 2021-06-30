@@ -38,7 +38,7 @@ class Music extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>music</Title>
+                        <Title>Music</Title>
                     </TextWrapperCenter>
                 </FadeWrapperBlock>
 

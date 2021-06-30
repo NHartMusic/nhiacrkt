@@ -22,7 +22,7 @@ import Tech_Triangle_02 from '../../assets/Tech_Triangle_02.png'
 interface Props { }
 interface State { }
 
-class tech extends PureComponent<Props, State> {
+class Tech extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -40,7 +40,7 @@ class tech extends PureComponent<Props, State> {
                     animate='visible'
                 >
                     <TextWrapperCenter>
-                        <Title>tech</Title>
+                        <Title>Tech</Title>
                     </TextWrapperCenter>
 
                 </FadeWrapperBlock>
@@ -100,4 +100,4 @@ class tech extends PureComponent<Props, State> {
     }
 }
 
-export default tech
+export default Tech

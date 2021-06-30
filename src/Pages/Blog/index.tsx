@@ -6,11 +6,10 @@ import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../ui/C
 import { ParagraphLarge } from '../../ui/Typography'
 import Albums2020 from '../blog/BlogPosts/Albums2020'
 
-
 interface Props { }
 interface State { }
 
-class blog extends PureComponent<Props, State> {
+class Blog extends PureComponent<Props, State> {
     constructor(props: Props) {
         super(props)
 
@@ -77,4 +76,4 @@ class blog extends PureComponent<Props, State> {
     }
 }
 
-export default blog
+export default Blog

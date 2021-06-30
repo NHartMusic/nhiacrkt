@@ -15,19 +15,19 @@ export default function Menu(): JSX.Element {
         <MenuWrapper>
 
             <ParagraphLarge>
-                <TextLink to='/music'>music</TextLink>
+                <TextLink to='/music'>Music</TextLink>
             </ParagraphLarge>
 
             <ParagraphLarge>
-                <TextLink to='/tech'>tech</TextLink>
+                <TextLink to='/tech'>Tech</TextLink>
             </ParagraphLarge>
 
             <ParagraphLarge>
-                <TextLink to='/blog'>blog</TextLink>
+                <TextLink to='/blog'>Blog</TextLink>
             </ParagraphLarge>
 
             <ParagraphLarge>
-                <TextLink to='/connect'>connect</TextLink>
+                <TextLink to='/connect'>Connect</TextLink>
             </ParagraphLarge>
 
         </MenuWrapper>

@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     align-items: center;
 `
 
-export default function home(): JSX.Element {
+export default function Home(): JSX.Element {
     return (
         <>
             <Circles />
