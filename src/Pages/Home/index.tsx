@@ -4,19 +4,22 @@ import styled from 'styled-components'
 import Name from '../../components/Name'
 import Circles from '../../components/circles'
 //ui Elements
-import { GifSmall, ImageLarge, ImageContainer, fade0, fade4 } from '../../ui/Media'
+import { ImageSmall, ImageLarge, ImageContainer, fade0, fade4 } from '../../ui/Media'
 import { ParagraphLarge } from '../../ui/Typography'
 import { TextWrapperLeft, FadeWrapperFlex, Container } from '../../ui/Containers'
 import { Triangle } from '../../components/SVGs'
 //assets
 import Golden_Gate from '../../assets/Golden_Gate.png'
-import {chrome_capture2} from '../../assets/gifs'
-
+import triangle_black_teal from '../../assets/triangle_black_teal.png'
 
 const Wrapper = styled.div`
     display: flex;
     margin: 0 auto;
     align-items: center;
+`
+
+const BottomTriangle = styled(ImageSmall)`
+    padding: 0px;
 `
 
 export default function Home(): JSX.Element {
@@ -53,7 +56,7 @@ export default function Home(): JSX.Element {
                 initial='hidden'
                 animate='visible'>
                 <Container>
-                    <GifSmall src={chrome_capture2}/>
+                    <BottomTriangle src={triangle_black_teal}/>
                 </Container>
             </FadeWrapperFlex>
         </>

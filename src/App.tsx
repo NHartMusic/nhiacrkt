@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer'
 //pages
 import { Home, Music, Blog, Tech, Connect } from './pages'
-import Albums2020 from './pages/blog/BlogPosts/Albums2020'
+import Albums2020 from './pages/blog/blogPosts/Albums2020'
 
 
 const ContentWrapper = styled.div`
@@ -23,7 +23,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path='/music' component={Music} />
           <Route path="/blog" component={Blog} />
-          <Route path="/albums2020" component={Albums2020} />
+          <Route path="/blog/albums2020" component={Albums2020} />
+          <Route path="/blog/albums2021sofar" component={Albums2020} />
           <Route path="/tech" component={Tech} />
           <Route path="/connect" component={Connect} />
         </Switch>

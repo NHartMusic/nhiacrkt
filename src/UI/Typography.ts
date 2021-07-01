@@ -5,7 +5,7 @@ import { SmallDesktop } from '../ui/MediaQueries'
 
 export const ParagraphLarge = styled.p`
     font-family: Sora;
-    color: ${Blues[5]};
+    color: ${Blues[6]};
     text-decoration: none;
     font-size: 1.2em;
     
@@ -17,12 +17,13 @@ export const ParagraphLarge = styled.p`
 export const ParagraphRegular = styled.p`
     font-family: 'Roboto', sans-serif;
     font-size: 1.0em;
+    color: ${Blues[6]};
 `
 
 export const ParagraphRegularWhite = styled.p`
     font-family: 'Roboto', sans-serif;
     font-size: 1.0em;
-    color: ${Blues[5]};
+    color: ${Blues[6]};
 `
 
 export const SubTitle = styled.p`

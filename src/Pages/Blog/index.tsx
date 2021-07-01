@@ -4,7 +4,7 @@ import { Title, ExternalLink } from '../../ui/Typography'
 import { fade0, fade1, fade2 } from '../../ui/Media'
 import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../../ui/Containers'
 import { ParagraphLarge } from '../../ui/Typography'
-import Albums2020 from '../blog/BlogPosts/Albums2020'
+import Albums2020 from './blogPosts/Albums2020'
 
 interface Props { }
 interface State { }
