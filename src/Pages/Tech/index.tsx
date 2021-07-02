@@ -1,6 +1,6 @@
 import React, { PureComponent, ReactNode } from 'react'
 //ui imports
-import { Title, ParagraphRegularWhite } from '../../ui/Typography'
+import { Title, ParagraphRegularWhite, ExternalLink } from '../../ui/Typography'
 import { 
     fade0, 
     fade1, 
@@ -76,8 +76,12 @@ class Tech extends PureComponent<Props, State> {
                             this one.
                         </ParagraphRegularWhite>
                         <ParagraphRegularWhite>
+                           If you are looking for help with an audio tech related project, please send us a message at my audio
+                           consulting company &nbsp;<ExternalLink href="https://www.originaudio.net/services" target="_none">Origin Audio</ExternalLink>.
+                        </ParagraphRegularWhite>
+                        <ParagraphRegularWhite>
                            Check out some fun experiments I've done with the p5.js library &nbsp;
-                            <a target="_none" href="https://editor.p5js.org/nick.hart/sketches">here</a>.
+                            <ExternalLink href="https://editor.p5js.org/nick.hart/sketches" target="_none">here</ExternalLink>.
                         </ParagraphRegularWhite>
                     </TextWrapperLeft>
                 </FadeWrapperBlock>

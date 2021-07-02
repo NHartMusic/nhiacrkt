@@ -5,7 +5,7 @@ import Name from '../../components/Name'
 import Circles from '../../components/circles'
 //ui Elements
 import { ImageSmall, ImageLarge, ImageContainer, fade0, fade4 } from '../../ui/Media'
-import { ParagraphLarge } from '../../ui/Typography'
+import { ParagraphLarge, ExternalLink } from '../../ui/Typography'
 import { TextWrapperLeft, FadeWrapperFlex, Container } from '../../ui/Containers'
 import { Triangle } from '../../components/SVGs'
 //assets
@@ -46,8 +46,8 @@ export default function Home(): JSX.Element {
                     My name is Nicholas James Hart, and I am a musician, audio engineer and software engineer
                     from Berkeley, California. I have a BA from music from Humboldt State University and a professional
                     certificate in full stack web development from UC Berkeley. I've worked in tech for over 3 years and
-                    I worked in the music industry for over 5 years before that. I love designing websites and I
-                    fucking hate the Grateful Dead.
+                    I worked in the music industry for over 5 years before that. I am available as a freelance developer
+                    for all things web-related, or you can contract me as a consultant through my company&nbsp;<ExternalLink href="https://www.originaudio.net/" target="_none">Origin Audio</ExternalLink>.
                 </ParagraphLarge>
             </TextWrapperLeft>
 
