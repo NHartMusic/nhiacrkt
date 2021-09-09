@@ -108,6 +108,7 @@ export default function CustomizedAccordions() {
                         <ParagraphLarge>
                             View last year's list &nbsp;<a href="https://top50albums2019.web.app/" target="_none">here</a>.
                         </ParagraphLarge>
+                        
                     </TextWrapperLeft>
                 </FadeWrapperBlock>
 

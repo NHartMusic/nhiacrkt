@@ -16,5 +16,5 @@ export const FirstName = styled(ParagraphLarge)`
 
 export const LastName = styled(ParagraphLarge)`
     font-size: 2.5em;
-    color: ${Blues[4]}
+    color: white;
 `

@@ -42,7 +42,7 @@ const ScrollContainer = styled(motion.div)`
 `
 
 export const ScrollContainerLightBlue = styled(ScrollContainer)`
-    background: ${Blues[1]};
+    background: white;
 
     @media ${CircleBreakPoint1} {
         display: none;
