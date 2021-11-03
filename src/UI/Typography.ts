@@ -17,13 +17,13 @@ export const ParagraphLarge = styled.p`
 export const ParagraphRegular = styled.p`
     font-family: 'Roboto', sans-serif;
     font-size: 1.0em;
-    color: ${Blues[6]};
+    color: white;
 `
 
 export const ParagraphRegularWhite = styled.p`
     font-family: 'Roboto', sans-serif;
     font-size: 1.0em;
-    color: ${Blues[6]};
+    color: white;
 `
 
 export const SubTitle = styled.p`

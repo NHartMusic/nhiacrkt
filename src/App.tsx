@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer'
 //pages
 import { Home, Music, Blog, Tech, Connect } from './pages'
+import Portfolio from './pages/tech/portfolio'
 import Albums2020 from './pages/blog/blogPosts/Albums2020'
 import Albums2021SoFar from './pages/blog/blogPosts/Albums2021SoFar'
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/albums2021sofar" component={Albums2021SoFar} />
           <Route path="/tech" component={Tech} />
           <Route path="/connect" component={Connect} />
+          <Route path="/portfolio" component={Portfolio} />
         </Switch>
         <Footer />
       </ContentWrapper>
