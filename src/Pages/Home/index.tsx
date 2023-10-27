@@ -22,6 +22,11 @@ const BottomTriangle = styled(ImageSmall)`
     padding: 0px;
 `
 
+const ImageRotate = styled.div`
+    
+    animation: rotation 5s linear infinite;
+`
+
 export default function Home(): JSX.Element {
     return (
         <>
@@ -37,8 +42,10 @@ export default function Home(): JSX.Element {
                 variants={fade4}
                 initial='hidden'
                 animate='visible'
-            >
-                <ImageLarge src={Golden_Gate} />
+            >   
+                <ImageRotate>
+                    <ImageLarge src={Golden_Gate} />
+                </ImageRotate>
             </ImageContainer>
 
             <TextWrapperLeft>

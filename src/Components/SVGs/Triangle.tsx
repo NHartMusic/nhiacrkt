@@ -9,11 +9,11 @@ export const svgVariants = {
     }
 }
 
-const TriangleStyle = styled(motion.svg)`
-    display: flex;
+const OuterTriangleStyle = styled(motion.svg)`
+   display: flex;
     margin: 0 auto;
     margin-top: 20px;
-    width: 80px;
+    width: 120px;
     overflow: visible;
     stroke: #000000;
     stroke-width: 4;
@@ -21,7 +21,34 @@ const TriangleStyle = styled(motion.svg)`
     stroke-linecap: round;
 `
 
-export const pathVariants = {
+const InnerTriangleStyle = styled(motion.svg)`
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80px;
+    overflow: visible;
+    stroke: #626868;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+`
+
+export const outerPathVariants = {
+    hidden: {
+        opacity: 0,
+        pathLength: 0
+    },
+    visible: {
+        opacity: 1,
+        pathLength: 1,
+        transition: {
+            duration: 3,
+            ease: 'easeInOut'
+        }
+    }
+}
+
+export const innerPathVariants = {
     hidden: {
         opacity: 0,
         pathLength: 0
@@ -36,10 +63,12 @@ export const pathVariants = {
     }
 }
 
+
+
 export const Triangle = (): JSX.Element => {
     return (
 
-        <TriangleStyle
+        <OuterTriangleStyle
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 100"
             variants={svgVariants}
@@ -48,9 +77,9 @@ export const Triangle = (): JSX.Element => {
         >
             <motion.path
                 fill="none"
-                d="M 50,5 95,97.5 5,97.5 z"
-                variants={pathVariants}
+                d="M 50 15, 100 100, 0 100 z"
+                variants={outerPathVariants}
             />
-        </TriangleStyle>
+        </OuterTriangleStyle>
     )
 }
